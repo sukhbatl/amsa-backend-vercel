@@ -1,0 +1,436 @@
+﻿Ovog,ner,email,second_email,school,degree,graduation_date,major,major,date of birth,cell phone,graduation year
+Adia,Enkhzaiaa,eggi_adiya@yahoo.com,,Webber International University,Bachelors,5/1/2014,Marketing Management,,04/22/92,847-840-1501,2014
+Adiaa,Tsolmon,tsolmon.adiya@utah.edu,tsoomko21@gmail.com,Geology and Geophysics Department University of Utah,Masters,6/1/2017,Geological science,,9/21/1987,801300871,2017
+Agiimaa,Tsogt,,,University of Nevada Las Vegas,Bachelors,5/1/2012,Management Information Systems,,,,2012
+Aldarsaikhan,Tuvshinbat,aldaraat@gmail.com,,Massachusetts Institute of Technology,Bachelors,5/1/2012,Architecture,,,,2012
+Altan-Ochir,Setsen,setsenee@gmail.com,setsenee@yahoo.com,Cornell College,Bachelors,6/1/2015,Economics,,6/24/1992,99785555,2015
+Altangerel,Davaazhav,DAlta75@students.campbellsville.edu,davka.altangerel@yahoo.com,Campbellsville University,Bachelors,5/16/2019,Graphic Design,,3/18/1996,+976 99713210,2019
+Altanmonkh,Bolor-Erdene,Altanmunkh@email.edu.mn,A.bolor_erdene@yahoo.com,The University of Arizona,Bachelors,5/15/2020,Electrical and Computer Engineering,,5/19/1997,5203122162,2020
+Altanpurev,Selenge,selaltan@ucdavis.edu,aselenge.ehs@gmail.com,University of California Davis,Bachelors,6/5/2017,Managerial Economics,Statistics,11/19/1993,5103885211,2017
+Altanzaiaa,Ariuntuiaa,altanza2@uwm.edu,suyon_z@yahoo.com,University of Wisconsin Milwaukee,Bachelors,5/21/2020,Global Studies: Global Urban Development,,9/24/1997,4145882009,2020
+Amar,Ganbold,,,Lehigh University,Bachelors,5/1/2014,Computer Science,,,,2014
+Amar,Ganpurev,,,Pennsylvania State University,Bachelors,5/1/2016,Finance,,,,2016
+Amarbat,Vattulga,Baa88@pitt.edu,Babird31@yahoo.com,University of Pittsburgh at Bradford,Bachelors,5/30/2020,Pharmacy,Biochemistry,12/30/1996,609-271-9311,2020
+Amarsaikhan,Oiuundalai,odalai@umich.edu,a_oyundalai@yahoo.com,University of Michigan Ann Arbor,Bachelors,5/1/2017,Economics,International Studies,7/31/1997,206-941-4961,2017
+Amarsaikhan,Enkh-Amar,amar2922@bears.unco.edu,enkuush_a@yahoo.com,University of Northern Colorado,Bachelors,5/10/2017,Business Administration Management,Marketing,12/2/1994,303-214-8941,2017
+Amarsanaa,Jargalmaa,jargalmaa.amarsan001@umb.edu,jaakmon@yahoo.com,University of Massachusetts Boston ,Bachelors,6/1/2018,Economics,,2/10/1995,8572725778,2018
+Amarsanaa,Enkhlen,enam4280@colorado.edu,enkhlen123@gmail.com,University of Colorado Boulder,Bachelors,5/15/2019,Mechanical Engineer,,7/22/1998,7036630040 99158065,2019
+Amarsanaa,Enerel,inec_bb@yahoo.com,eamarsan@iupui.edu,IUPUI,Bachelors,5/1/2013,Accounting,,8/27/1990,571-309-5766,2013
+Amartuvshing,Saran,,samartuv@smith.edu,Smith College,Bachelors,5/1/2012,Economics,,1/21/1991,857-210-8741,2012
+Amgalan,Nomin,namgalan@uci.edu,demon_rokudaime_hokage@yahoo.com,University of California Irvine,Bachelors,6/15/2020,Computer Science,,9/20/1998,949-771-4081 99179966,2020
+Anand,Zhigmedsanzhaa,,,University of Massachusetts Lowell,Bachelors,5/1/2016,Civil Engineering,,,,2016
+Anand,Sergelen,,,Ithaca College,Bachelors,5/1/2016,Business Administration,,,,2016
+Anand,Erdenebileg,,,Metropolitan State University of Denver,Bachelors,5/1/2012,Civil Engineering,,,,2012
+Anarbold,Miagmarkhuu,,,Universiity of Utah,Bachelors,5/1/2014,Metallurgical Engineering,,,,2014
+Anudar,Bold,,,Lindenwood University,Bachelors,5/1/2013,Economics,,,,2013
+Anudar,Letian,sun.letianu@gmail.com ,,Columbia University,Bachelors,5/1/2015,Biology,,,,2015
+Anuuzhin,Elbegdorzh,,,Smith College,Bachelors,5/1/2015,Undeclared,,,,2015
+Ariunaa,Davaadorzh,,,Pennsylvania State University,Bachelors,5/1/2014,Health Policy and Administration,,,,2014
+Ariunmoron,Gunregzhav,,,Lindenwood University,Masters,5/1/2013,MBA with emphasis in Finance,,,,2013
+Ariunzaiaa,Gansukh,,,University of Colorado Boulder,Bachelors,5/1/2016,Psychology,,,,2016
+Ariunzaiaa,Namkhainiambuu,,,Endicott college,Bachelors,5/1/2017,Computer Science,,,,2017
+Avaadorzh,Anuzhin,aavaa61@students.campbellsville.edu,anujin.avaadorj@gmail.com,Campbellsville,Bachelors,5/17/2019,business administration,,2/18/1996,(976)+99852364,2019
+Baasanbat,Purevzhal,,,University of Wisconsin,Bachelors,5/1/2015,Computer Science,,,,2015
+Baasandorzh,Oiuun-Erdene,Oyunerdene.Baasandorj@student.csulb.edu,oykosss@aol.com,California State University Long Beach,Masters,6/13/2018,Public Administration,,1/14/1991,2135689553,2018
+Baasansuren,Sodnom,sb047@lionmail.lindenwood.edu,Sodoolu@gmail.com,Lindenwood University,Bachelors,12/5/2017,Business Administration,,6/30/1995,6362197427,2017
+Baatar,Badraa,bbaatar@msudenver.edu,badraabaatar@gmail.com,Metropolitan State University of Denver,Bachelors,6/1/2018,Aviation Science,Commercial Pilot,2/25/1994,7207576325,2018
+Baatar,Badraa,bbaatar@msudenver.edu,badraabaatar@gmail.com,Metropolitan state university of denver,Bachelors,6/1/2018,Aviation Management,Pilot,2/25/1994,7207576325,2018
+Baatar,Magnaizhargal,magnbaat@campus.viu.edu,magnaijargal16@gmail.com,VIU,Masters,5/27/2018,MBA,,1/16/1982,5713656157,2018
+Baatar,Badraa,bbaatar@msudenver.edu,badraabaatar@gmail.com,Metropolitan State University of Denver,Bachelors,5/31/2018,Aviation Managemnet,Commercial Pilot,2/25/1994,7207576325,2018
+Baatarsuren,Monkh-Erdene,mbaatarsuren@umass.edu,munkherdene1604@gmail.com,University of Massachusetts Amherst,Bachelors,5/31/2018,Computer Science,,4/16/1994,99402255,2018
+Baatarzhav,Namuun,namuun_baatarjav@yahoo.com,namuunn@mail.ru,Lindenwood University,Bachelors,5/1/2015,Graphic Design,Political studies,8/6/1992,7202728608,2015
+Badam,Nomin,nb2398@nyu.edu,badamnomin@gmail.com,New York University,Bachelors,5/31/2020,Electrical Engineering,,2/4/1998,+13475893749,2020
+Badamsed,Tsenguun,tsenguun_2005@yahoo.com,tb329@cornell.edu,Cornell University,Bachelors,12/1/2012,ORIE,,8/28/1989,88063036 6077931233,2012
+Badamsereezhid,Gansukh,,,Minnesota State University Moorhead,Bachelors,5/1/2015,Health administration,,,,2015
+Badamtsetseg,Zhargalsaikhan,,,University of California Berkeley,Bachelors,5/1/2013,Microbial biology,,,,2013
+Badamvaanchig,Bilguun,bb7@geneseo.edu,badambilguun@yahoo.com,State University of New York at Geneseo,Bachelors,5/1/2012,Business Administration,,6/25/2012,585-447-1204,2012
+Badarch,Nergui,nBadarch@cs.mum.edu,Nergui.Badarch@gmail.com,Maharishi University of Management,Masters,6/15/2016,Computer Science,,1/23/1988,7087740971,2016
+Baianmonkh,Baialag,bb588@cornell.edu,bayalag.bobo@gmail.com,Cornell University,Bachelors,5/30/2021,Applied Economics and Management,,11/15/1999,6073795060,2021
+Baianmonkh,Vanchinsuren,vbayanmunkh.student@igu.edu,bankuu0608@gmail.com,IGlobal university,Bachelors,12/21/2021,Business administration,,6/8/2000,2024688396,2021
+Baiaraa,Nandin- Erdene,,nbayaraa@c.ringling.edu,Ringling College of Art and Design,Bachelors,5/1/2015,Business of Art and Design,,3/22/1992,941-961-8381,2015
+Baiarsaikhan,Anu,anu.bayarsaikhan@siu.edu,bayarsaikhananu@gmail.com,Southern Illinois University Carbondale,Masters,12/16/2018,Auditing & Accounting,,4/16/1996,+1(312) 837-9988,2018
+Baiarsaikhan,Khulag,kbayarsaikhan@mail.roosevelt.edu,hulan1106@gmail.com,Roosevelt University,Bachelors,8/31/2016,MBA,,11/6/1991,3126623422,2016
+Baiartsengel,Misheel,misheel921@ucla.edu,misheel_921@yahoo.com,University of California Los Angeles,Bachelors,6/1/2019,Electrical Engineering,,9/21/1996,+14159648060,2019
+Baiasgalan,Amar,abayasgalan2012@my.fit.edu,amarbysgln@gmail.com,Florida Institute of Technology,Bachelors,7/25/2016,Mechanical Engineer,,5/21/1991,3214120663,2016
+Baiasgalan,Batgerel,,,Lindenwood University,Masters,5/1/2014,MBA,,,,2014
+Baiasgalan,Enkhmoron,murunb@umich.edu,noctohalf@yahoo.com,University of Michigan,Masters,9/1/2017,Сансар нисэх,,4/28/1992,7348461095,2017
+Bakt,Elzhas,eljas_26@yahoo.com,Yeljas.Bakhyt@williams.edu,Williams College,Bachelors,6/1/2015,Undecided,,1/26/1990,440-413-6514,2015
+Balsandorzh,Zolzhargal,zb86@rutgers.edu,zoljargal_balsandorj@yahoo.com,Rutgers the state university of New Jersey ,Bachelors,5/30/2019,Chemical engineering,,10/14/1996,99040049,2019
+Balzhinniam,Namiraa,namiraa.baljinnyam@gallaudet.edu,namiraa.baljinnyam@gallaudet.edu,Gallaudet University,Masters,5/1/2014,Deaf Education,Early Intervention,3/7/1980,(202)425 1548,2014
+Barkhas,Tsolmon,,,Virginia International University,Masters,5/1/2013,MBA,,,,2013
+Barkhasbad,Subeedei,12subeedei@gmail.com,,Albion college,Bachelors,5/14/2020,Psychology,Economics,10/12/1997,5179140558,2020
+Bat-Amgalan,Zorigt,,,Dartmouth College,Bachelors,5/1/2017,Liberal arts,,,,2017
+Bat-Erdene,Nomin-Erdene,nbate639@students.bju.edu,nbate94@gmail.com,Bob Jones University,Bachelors,5/8/2017,Business Administration,,9/28/1994,2025697836,2017
+Bat-Erdene,Selenge,sb3917@columbia.edu,selenge0305@yahoo.com,Columbia University,Bachelors,5/20/2020,Undeclared,,3/5/1998,3475530665,2020
+Bat-Erdene,Bat-Orgil,batorgilb@email.arizona.edu,b.batorgil@yahoo.com,The University of Arizona,Bachelors,5/20/2019,environmental science,,6/28/1997,88690628,2019
+Bat-Erdene,Erdenebileg,ebaterdene@unomaha.edu,bilgeebr@hotmail.com,University of Nebraska at Omaha,Masters,5/20/2018,Information Systems,Project Management,7/3/1991,4025946208,2018
+Bat-Erdene-ii,Odontsetseg,odon8289@hotmail.com,odon.baterdene@gmail.com,Suffolk University,Bachelors,1/1/2012,Finance,Management,12/20/1989,857-205-1512,2012
+Bat-Ider,Khulan,hulanb@bu.edu,,Boston University,Bachelors,6/1/2015,Undecided :P,,7/27/1995,617-842-9243,2015
+Bat-ireedui,Anar,Abatireedui1@student.gsu.edu,anar_gb@yahoo.com,Georgia State University,Masters,5/25/2017,MPP,,10/29/1987,3022907765,2017
+Bat-Olzii,Luvsansharav,,,University of Kansas,Bachelors,5/1/2012,Accounting,,,,2012
+Bat-Olzii,Telmen,u1032703@utah.edu,timy_mrn@yahoo.com,University of Utah,Bachelors,5/10/2019,Finance,Russian,2/11/1998,8016430132,2019
+Bataa,Sarnai,sarnaibataa@gmail.cameron.edu,sarnai_rzzi@yahoo.com,Cameron university,Bachelors,5/15/2017,Finance,,7/26/1996,580-695-0036,2017
+Batbaatar,Lkhagvasuren,Lhagvaa001@g.ucla.edu,Lhagvaa_titan@yahoo.com,University of California Los Angeles,Bachelors,12/20/2017,Computer science,,4/3/1991,213-245-6162,2017
+Batbaatar,Namuun,,nnamuun@yahoo.com,Lindenwood University,Bachelors,5/1/2015,Chemistry,,11/27/1994,636-634-1817,2015
+Batbaiar,Miagmarsuren,,myagaa_sdb@yahoo.com,Minnesota State University Mankato,Bachelors,5/1/2015,Electronic Engineering Technology,,10/26/1993,6124236714,2015
+Batbayar,Munkhdemberel,mugibatbayar@email.arizona.edu,muugii_bt@yahoo.com,University of Arizona,Bachelors,5/16/2016,Mining Engineering,Math,1/16/1991,(224) 725-9433,2016
+Batbold,Tsatsral,tbatbo10@earlham.edu,tbatbo10@earlham.edu,Earlham College,Bachelors,5/1/2014,International Relations,French,6/15/1990,99673305,2014
+Batdelger,Bulgamaa,b_girlh1@yahoo.com,bb463@lionmail.lindenwood.edu,Lindenwood University,Bachelors,5/1/2015,Economics,,1/20/1993,636-634-1976,2015
+Batgerel,Chinzorig,batgerel.1@osu.edu,devil.ancient@yahoo.com,The Ohio State University,Bachelors,12/15/2017,Computer Science and Engineering,,9/27/1996,2067474248,2017
+Batkhuiag,Uchral,ubatkhuyag@wustl.edu,Uchka Uchk B,Washington University in St.Louis,Bachelors,5/25/2019,Economics (Liberal Arts),,7/5/1998,99893049,2019
+Batmonkh,Bilguun,batmunkh.b@neu.edu,,Northeastern University,Bachelors,5/1/2013,Economics,,10/13/1989,6179010806,2013
+Batmonkh,Zulsar,zulsar@mit.edu,,MIT - Massachusetts Institute of Technology,Bachelors,6/1/2016,Mathematics and Economics,,11/8/1993,94151945,2016
+Batmonkh,Undral,undral_batmunkh@hks17.harvard.edu,undral_6205@yahoo.com,Harvard Kennedy School of Government,Masters,5/25/2017,public policy,,7/17/1988,89018081,2017
+batmunkh,munkhbat,10526850@uvlink.uvu.edu,infinitymonkh@gmail.com,Utah Valley University,Bachelors,8/15/2016,Political Science (Public Law),,5/13/1989,18019070774,2016
+Batniam,Ganbold,Batnyam.ganbold@baruchmail.cuny.edu,gbnyam@yahoo.com,Baruch College,Bachelors,1/1/2017,Finance,Minor: Psychology,7/17/1994,3474498886,2017
+Batsaikhan,Bat-Orgil,batsa003@umn.edu,orgil.heat@yahoo.com,University of Minnesota Twin Cities,Bachelors,6/1/2018,Computer Science,Math minor,8/22/1996,612-940-9689,2018
+Batsaikhan,Maral,Maral_batsaikhan@student.uml.edu,Zipmaa@gmail.com,UMASS Lowell,Bachelors,5/10/2018,Civil engineering,,8/14/1994,88148888,2018
+Batsaikhan,Ariunzul,abatsaik@my.hpu.edu,emona_zula@yahoo.com,Hawaii Pacific University,Bachelors,5/1/2019,Hospitality Tourism Management,,6/1/1991,4699801991,2019
+Batsaikhan,Altantsetseg,,,University of Washington,Bachelors,5/1/2015,International Studies,,,,2015
+Batsaikhan,Ochir,,,Saint louis Community College,Bachelors,5/1/2013,Finance,,,,2013
+Batsaikhan,Batkhuiag,batkhuyag.batsaikhan@yahoo.com,bbatsaikhan@umassd.edu,University of massachusetts Dartmouth,Bachelors,5/1/2016,MIS,,16/10/1993,508-685-7675,2016
+Batsaikhan,Lkhagva-Ochir,lbatsaikhan@stcloudstate.edu,lhagva.b427@yahoo.com,St.Cloud State University,Bachelors,5/20/2018,International Business,,4/27/1996,320-761-6151,2018
+Batsaikhan,Odbaiar,obatsaikhan@yahoo.com,batsaikhan@ucdavis.edu,University of California Davis,Bachelors,12/1/2013,Civil Engineering,Construction Management,2/3/1990,510-219-2307,2013
+batsaikhan,odbaiar,obatsaikhan3470@students.southplainscollege.edu,odgoo7@yahoo.com,South Plains College/ Texas Tech University,Masters,5/31/2018,Сэтгэл Судлал,Боловсрол,4/20/1985,N/A,2018
+Batsuur,Purevzol,zokiya_puve@yahoo.com,zokiya_puve@yahoo.com,Campbellsville University,Bachelors,5/1/2015,Journalism,,6/24/1993,270-403-5039,2015
+Batsuur,Damdinsharav,,,Ramapo College of New Jersey,Bachelors,5/1/2016,Computer Science,,,,2016
+Batsuur,Tomorkhuiag,,,University of Massachusetts Amherst,Bachelors,5/1/2015,Finance,,,,2015
+Batsuur,Purevzol,,,Campbellsville University,Bachelors,5/1/2015,Journalism,,,,2015
+Battogtokh,Batbileg,batbbatt@ius.edu,beegii_mongol@yahoo.com,Indiana University Southeast,Bachelors,5/5/2017,Communication,Marketing,2/28/1994,5029383960,2017
+Battor,Ganzorig,gbattur@umflint.edu,ganzorig.battur@yahoo.com,University of Michigan-flint,Bachelors,5/1/2019,General Computer Science,,3/28/1996,0,2019
+Battsengel,Tsatsral,tsatsral@ucsb.edu,tsatsa@umich.edu,University of California Santa Barbara,Doctors,5/2/2021,engineering,,12/20/1991,99858008,2021
+Battsoozh,Baiarsaikhan,,,University of Massachusetts,Bachelors,5/1/2017,Electrical Engineering,,,,2017
+Battsoozh,Uvsh,,,Indiana University,Masters,5/1/2013,Information Systems,,,,2013
+Battulga,Ganzul,,,Los Angeles City College,Bachelors,5/1/2017,International Relations,,,,2017
+Battulga,Ganzorig,,,UMSL,Bachelors,5/1/2013,Finance,,,,2013
+Battulga,Udval,ubattulga@ucdavis.edu,sfudvalb@gmail.com,University of California Davis,Bachelors,5/30/2019,Biological Sciences,,6/30/1997,415-632-8007,2019
+Battulga,Erdenebold,ebo2020@stanford.edu,erdenebold_et@yahoo.com,Stanford,Bachelors,6/1/2020,not decided,,2/8/1998,88398884,2020
+Battumur,Misheel,mbattumur@umail.ucsb.edu,mishka0113@gmail.com,University of Santa Barbara,Bachelors,6/15/2019,Economics,Accounting,1/13/1997,5103632745,2019
+Battushig,Mianganbaiar,,,Massachusetts Institute of Technology,Bachelors,5/1/2017,Electrical Engineering,,,,2017
+Batzaiaa,Enerel,,,Lindenwood University,Bachelors,5/1/2014,Finance,,,,2014
+Batzhargal,Badmaarag,bdmrg810@uw.edu,bdmrg_0810@yahoo.com,University of Washington,Bachelors,10/6/2020,эдийн засаг,,8/10/1998,95641624,2020
+Batzhargal,Iveelt,Iveelt@csu.fullerton.edu,Iveeltbatjargal@gmail.com,California State University Fullerton ,Masters,6/1/2019,Digital Production for Entertainment Art / Animation,Visual Reality,4/5/1991,213 425 1617,2019
+Batzhargal,Nomondalai,batjargal@g.ucla.edu,nomondalai.batjargal@gmail.com,University of California Los Angeles,Bachelors,6/12/2017,Political Science,,4/21/1993,(510)-599-3053,2017
+Batzhargal,Tenger,batjarga001@knights.gannon.edu,tenger323@gmail.com,Gannon University,Bachelors,12/18/2019,Electrical Engineering,,3/23/1978,8147906341,2019
+Batzhin,Boldbat,bb6@williams.edu,batjin.boldbat@gmail.com,Williams College,Bachelors,5/1/2015,Undeclared,,,,2015
+Batzorig,Orgil,skydude1993@gmail.com,orgilburte@yahoo.com,Albion College,Bachelors,5/1/2015,Undeclared,Undeclared,8/13/1993,5176306140,2015
+Bayarsaikhan,Oyu,oyu.bayarsaikhan@siu.edu,bayarsaikhan.oyu@gmail.com,Southern Illinois University Carbondale,Masters,5/10/2018,Accounting,Auditing,10/27/2016,7408189064,2018
+Bekhbat,Mandakh,mabekhbat@vassar.edu,,Vassar College,Bachelors,5/1/2013,Neuroscience,,2/13/1992,845-664-0982,2013
+Belegbaiar,Nomin,sarnai_rc@yahoo.com,522025@park.edu,Park University,Bachelors,5/1/2012,Finance,Marketing,6/6/1991,816-522-0044,2012
+Biambaragchaa,Telmuun,tb476@cornell.edu,telmuun7@yahoo.com,Cornell University,Masters,5/31/2017,Public Affairs,,1/8/1990,3025100635,2017
+Bilguun,Badamvaanchig,,,State University of New York at Geneseo,Bachelors,5/1/2012,Business Administration,,,,2012
+Bilguun,Batzhargal,,,University of Massachusetts Lowell,Bachelors,5/1/2017,Civil Engineering,,,,2017
+Bilguun,Ulammandakh,,,Harvard University,Bachelors,5/1/2014,Political Science,,,,2014
+Biligt-Ochir,Batchuluun,,,University of Massachusetts Lowell,Bachelors,5/1/2017,Biology,,,,2017
+Binderiaa,Biambasuren,,,Mount Holyoke College,Bachelors,5/1/2015,Economics,,,,2015
+Bold,Dorzhpurev,,,Pennsylvania State University,Bachelors,5/1/2016,Engineering,,,,2016
+Bold,Miagmarzhav,mka_1531@yahoo.com,miga@iastate.edu,Iowa State University,Bachelors,6/1/2015,Computer Engineering,,5/22/1990,860-807-5313,2015
+Boldbaatar,Nomin,nboldbaatar@ucdavis.edu,nomin_od2006@yahoo.com,UC Davis,Bachelors,6/23/2016,Managerial Economics,Communications,4/12/1993,5104673502,2016
+Boldbat,Batzhin,batjin.boldbat@gmail.com,bb6@williams.edu,Williams College,Bachelors,5/1/2015,Undeclared,NA,93/08/01,NA,2015
+Boldbat,Sarangoo,sboldba@calstatela.edu,saraanaa_bgirl@yahoo.com,California State University Los Angeles,Bachelors,6/27/2016,Accounting,,9/13/1992,941 726 1010,2016
+Bolor-Erdene,Zolbaiar,,,Pennsylvania State University,Bachelors,5/1/2016,Engineering,,,,2016
+Bolor-Erdene,Erdenechuluun,,,Florida Gulf Coast University,Bachelors,5/1/2014,Finance,,,,2014
+Budlkham,Baiarsaikhan,,,CUNY Baruch,Bachelors,5/1/2013,Finance/Investment,,,,2013
+Buian-Ochir,Zhamsran,,,Western Illinois University,Bachelors,5/1/2016,Marketing,,,,2016
+Buianbat,Tungalag,b.tungalag0407@yahoo.com,b.tungalag0407@yahoo.com,St. Cloud State University,Bachelors,5/6/2020,Finance,,4/7/1998,3203805552,2020
+Buiannemekh,Monkhbat,buyannemeh@gmail.com,,Mount Holyoke College,Bachelors,5/1/2015,Computer Science,,,,2015
+Buiannemekh,Khulganaa,b_kh7185@yahoo.com,b_kh7185@yahoo.com,Lafayette College,Bachelors,5/21/2018,Neuroscience,,11/11/1995,6109055509,2018
+Bulgamaa,Batdelger,,,Lindenwood University,Bachelors,5/1/2015,Economics,,,,2015
+Bulgantamir,Khaltar,,,University of Minnesota,Bachelors,5/1/2012,Finance,,,,2012
+Burmaa,Nergui,,,Southern New Hampshire University,Masters,5/1/2014,Accounting,,,,2014
+Buzhinlkham,Batzhargal,,,Hannibal La-Grange University,Bachelors,5/1/2016,Business Administration,,,,2016
+Byambadorj,Tsenguun,tsenguun.byambadorj@marquette.edu,tsenguun1@gmail.com,Marquette University,Masters,8/1/2016,Electrical Engineering,,5/26/1991,224-619-2301,2016
+Byambadorj,Namuun,Nbyambadorj@wisc.edu,Namuun0910@yahoo.con,University of Wisconsin Madison,Bachelors,12/25/2018,Exonomics,,9/10/1996,6823302078,2018
+Chimeddorzh,Ganseree,Chimedd2@illinois.edu,,UNIVERSITY OF ILLINOIS AT URBANA-CHAMPAIGN,Bachelors,5/15/2019,Urban planning,,3/4/1997,2248045200,2019
+Chinbat,Ganbat,,,University of Washington,Bachelors,5/1/2015,Business Administration,,,,2015
+Chinbat,Orgil,OChin37@students.campbellsville.edu,orgil11@yahoo.com,Campbellsville,Bachelors,12/16/2016,Бизнесийн Удирдлага,Маркетинг,8/12/1995,270-849-7890,2016
+Chinbat,Togoldor,togi.cbat@gmail.com,togi.cbat@gmail.com,Utah State University,Bachelors,5/1/2015,Entrepreneurship/Business Admin,,11/24/1992,801-300-8858,2015
+Chinsanaa,Shilugei,schinsan@msudenver.edu,shiluugei@gmail.com,Metropolitan State University of Denver,Bachelors,5/24/2016,Accounting,,1/12/1992,720-243-1271,2016
+Choibat,Tanan,tc2346@nyu.edu,tanan.choibat@yahoo.com,New York University,Bachelors,5/17/2020,chemical engineering,sustainable urban environment,7/27/1999,9293702417,2020
+Choizhamts,Oiuu,oyu_lrp@yahoo.com,ochoijamts@college.harvard.edu,Харвардын Их Сургууль,Bachelors,5/1/2016,Шийдээгүй,,5/23/1994,(976)99767640,2016
+choizhilsuren,Tsolmon,togi.cbat@gmail.com,togi.cbat@gmail.com,Northeastern University,Bachelors,5/6/2018,Economics,,8/12/1996,6176693302,2018
+Chuluunbaatar,Tsaschikher,tsasaa_0420@yahoo.com,tessa@eastwest.edu,East-West University,Bachelors,5/1/2014,International Relations,Behavioral Social Science,4/20/1988,773-620-3232,2014
+Dandarchuluun,Chinzorig,cdandarchuluun@mum.edu,chinzorig.da@gmail.com,Maharishi University of Management,Masters,10/18/2019,Computer Science,,11/30/1989,4158067995,2019
+Dariimaa,Gombojaw,,,,Masters,5/10/2019,Master of Laws,,,,2019
+Dashdondog,Gantogs,gantugs.d@gmail.com,daga0701@stcloudstate.edu,St. Cloud State University,Bachelors,5/1/2010,FINANCE,,2/17/1989,320-223-3284,2010
+Davaa-Ochir,Altanzul,ad12@albion.edu,altanzuldavaaochir@gmail.com,Albion College,Bachelors,5/8/2020,Sustainability Studies,Economics and Management,9/17/1996,1-517-914-0956,2020
+Davaadorzh,Ariunaa,ariunaa1215@yahoo.com,axd5153@psu.edu,Pennsylvania State University,Bachelors,5/1/2014,Health Policy and Administration,Information Science Technology,12/15/1993,443-994-4355,2014
+Davaakhuu,Anudar,davaakhuu@wisc.edu,anudari_mng@yahoo.com,University of Wisconsin-Madison,Bachelors,5/30/2018,Economics,International Studies,10/2/2016,6087725028,2018
+Davaazhamts,Borte,burte.davaajamts@jacks.sdstate.edu,burtedav@gmail.com,South Dakota State University,Masters,5/9/2015,Civil Engineering,,6/10/1990,6055920783,2015
+Delgermaa,Nergui,,,Georgia Institute of Technology,Bachelors,5/1/2017,Electrical Engineering,,,,2017
+Delgermend,Tserendamba,,,University of Minnesota Twin Cities,Bachelors,5/1/2012,Family Social Science,,,,2012
+Delgerzhargal,Delgerzaiaa,dzaya@uw.edu,ddeegiizaya@yahoo.com,University of Washington,Bachelors,6/11/2019,Environmental studies,Economics,6/9/1996,2063696956,2019
+Denbaa,Bat-Erdene,,,Emmanuel College,Bachelors,5/1/2017,Biology,,,,2017
+Dol,Tushig,tushid@u.washington.edu,Tushig97dul@gmail.com,University of Washington Seattle,Bachelors,6/1/2020,International relations,Economics,11/3/1997,99159232,2020
+Dolgoon,Gantulga,,,Worcester Polytechnic Institute,Bachelors,5/1/2016,Biomedical Engineering,,,,2016
+Dolgoon,Otgonsuren,,,Indiana University Southeast,Bachelors,5/1/2016,International Business,,,,2016
+Dolgoon,Tumenbaiar,,,University of Massachusetts Lowell,Bachelors,5/1/2017,Civil Engineering,,,,2017
+Dolgoon,Erdenebileg,,,University of California Riverside,Bachelors,5/1/2013,Biological Sciences,,,,2013
+Dolgormaa,Monkhzhargal,,,University of Massachusetts Lowell,Bachelors,5/1/2015,Biology,,,,2015
+Dolzodmaa,Davaasuren,,,Purdue University,Bachelors,5/1/2016,Engineering,,,,2016
+Dovondorzh,Chuluun,,,University of Alabama,Bachelors,5/1/2019,Marketing,,,,2019
+Dugerdorzh,Davaadorzh,,,Grand Valley State University,Bachelors,5/1/2013,Business Administration,,,,2013
+Dulamtseren,Altan,,,Brown University,Bachelors,5/1/2014,Developmental Studies,,,,2014
+Dungarmaa,Baasansuren,bdungarmaa@clarku.edu,surri9011@gmail.com,Clark University,Masters,12/20/2017,Master of Science in Finance,,11/30/1990,16198313744,2017
+Elbegdorzh,Anuuzhin,Anuujin0304@gmail.com,Anuujin0304@gmail.com,Smith College,Bachelors,5/1/2015,,,8/16/1993,413-588-4339,2015
+Elbegduuren,Erdene,,,Princeton University,Bachelors,5/1/2017,Molecular Biology,,,,2017
+Elzhas,Bakyt,,,Williams College,Bachelors,5/1/2015,Undeclared,,,,2015
+Enerel,Amarsanaa,,,IUPUI,Bachelors,5/1/2013,Accounting,,,,2013
+Enkh-Amgalan,Rentsenkhand,enkhamgalan@goldmail.etsu.edu,handaa.enkhamgalan@gmail.com,East Tennessee State University,Bachelors,5/10/2016,Marketing Management,Business Economics,11/7/1994,(423) 631-2620,2016
+Enkhbaiar,Tod-Od,etodod@ymail.com,etodod@illinois.edu,University of Illinois,Masters,5/1/2013,Accounting,,91/03/22,779-772-7566,2013
+Enkhbaiar,Tsatsral,tsa2016@uw.edu,Tsatsral Enkhbayar,University of Washington,Bachelors,6/10/2020,Анагаахын шинжлэх ухаан,,2/23/1998,99193721,2020
+Enkhchimeg,Tsendniam,,,Illinois College,Bachelors,5/1/2017,Economics,,,,2017
+Enkhee,Biambasuren,be5@uw.edu,suri99be@yahoo.com,University of Washington,Bachelors,6/1/2019,Environmental Studies,,10/30/1999,206-370-0127,2019
+Enkhjin,Munkhbat,,,,Bachelors,5/10/2021,Molecular and Cellular Biology,Business minor,,,2021
+Enkhkhaliun,Baatar,,,California State University Northridge,Bachelors,5/1/2015,Accounting,,,,2015
+Enkhmend,Gereltogtokh,,,University of Chicago,Bachelors,5/1/2016,Economics,,,,2016
+Enkhtaivan,Ayush,enkhtaiv001@knights.gannon.edu,eayush2002@gmail.com,Gannon University,Masters,7/1/2016,MBA,,3/21/1991,814-440-8962,2016
+Enkhtaivan,Anuzhin,AEnkhtaivan01@wildcats.jwu.edu,anu_956@yahoo.com,Johnson and Wales University,Bachelors,5/18/2020,Finance,,5/6/2016,4016882922,2020
+Enkhtaivan,Moron,menkhtai@cord.edu,emurun0225@gmail.com,Concordia College,Bachelors,6/1/2020,Global Studies,Political Science  Chinese,2/25/1999,2189790145,2020
+Enkhtaivan,Oiuunbazar,eoyunbazar@mail.spc.edu ,,St. Peters University,Bachelors,5/1/2014,Economics,,,,2014
+Enkhtaivan,Enkhzaiaa,,david_robert_jozeph_beckham@yahoo.com,Cornell College,Bachelors,5/1/2015,Mathematics,,11/9/1991,,2015
+Enkhtor,Lkhagvazhav,,,University of Virginia,Bachelors,5/1/2015,Economics,,,,2015
+Enkhtor,Misheel,10882743@cc.peralta.edu,mmishka.1010@gmail.com,Peralta Community College District,Bachelors,5/30/2016,Economics,,10/10/1995,(510) 590-6230,2016
+Enkhtor,Khishigzhargal,ke736@lionmail.lindenwood.edu,khishig468@gmail.com,Lindenwood University,Bachelors,12/30/2020,International Business,,5/24/1998,байхгүй,2020
+Enkhtur,Lkhagvasaikhan,enkhturl237@peacocks.uiu.edu,lboy_94@yahoo.com,Upper Iowa University,Bachelors,5/7/2016,Financial Management,,8/10/1994,2246783546,2016
+Enkhtuvshin,Uranbileg,uenkhtuvshin@uchicago.edu,uranbileg.enkhtuvshin@gmail.com,University of Chicago,Masters,6/10/2018,Masters in Public Policy,,12/28/1991,773-759-4659,2018
+Enkhzaiaa,Adiaa,,,Webber International University,Bachelors,5/1/2014,Marketing Management,,,,2014
+Enkhzaiaa,Enkhtaivan,,,Cornell College,Bachelors,5/1/2015,Mathematics,,,,2015
+Enkhzhargal,Batbold,,,Lindenwood University,Bachelors,5/1/2014,Economics,,,,2014
+Enkhzhargal,Lkhagvazhav,,,University of North Texas,Bachelors,5/1/2015,Economics,,,,2015
+Enkhzhargal,Tsogtgerel,,,University of Massachusetts Dartmouth,Bachelors,5/1/2016,Biotechnology,,,,2016
+Erdem,Saruul,serdem@indiana.edu,saruul0806@gmail.com,Indiana University Maurer School of Law,Masters,5/8/2016,Хууль,,8/6/1992,8123252838,2016
+Erdene-Ochir,Gantulga,,,University of Nevada Las Vegas,Bachelors,5/1/2013,Hospitality,,,,2013
+Erdene-Ochir,Enkhmaa,erdeneoc@seattleu.edu,enkhmaa.eo@gmail.com,Seattle University,Masters,12/27/2017,Master of Science in Finance,,9/26/1992,4086801034,2017
+Erdenebaiar,Buian- ornokh,berdenebayar@alaska.edu,egduuteizuzu@yahoo.com,University of Alaska Fairbanks,Masters,5/30/2020,odoohondo helnii beltgel,,11/12/1994,7733490740,2020
+Erdenebat,Tergel,terden5@illinois.edu,tergelerdenebat@yahoo.com,University of Illinois Urbana-Champaign,Bachelors,5/15/2018,Agricultural and Biological Engineering,,2/3/1996,7203716477,2018
+Erdenebat,Esuunee,yerdenebat@ucdavis.edu,yesnq@yahoo.com,University of California Davis,Bachelors,9/19/2020,Engineer,,9/19/1999,4152601122,2020
+Erdenebat,Maralmaa,merdeneb@u.rochester.edu,rubymaral@yahoo.co.uk,University of Rochester,Bachelors,5/12/2020,Data Science,Financial Economics,5/6/2014,0,2020
+Erdenebileg,Dolgoon,derde001@ucr.edu,derde001@ucr.edu,University of California Riverside,Bachelors,6/1/2013,Biological Sciences,,1/23/1991,424-202-2132,2013
+Erdenebileg,Zolzaya,zolzayae@gmail.com,erdenebilegz@kenyon.edu,Kenyon College,Bachelors,5/1/2014,Economics,International Studies,12/29/1991,908-307-0623,2014
+Erdenebulgan,Dolgoon,Dxe14@psu.edu,Dukuni_in@yahoo.com,Penn State Law,Masters,5/14/2016,Хууль,,3/25/1992,8145997980,2016
+Erdenechimeg,Naidansambuu,,,Roosevelt University,Bachelors,5/1/2013,Finance,,,,2013
+Erdenedalai,Togtuun,Tgtn0314@uw.edu,Tgtn0314@yahoo.com,University of Washington,Bachelors,6/12/2017,Business Administration and Management,Marketing,3/14/1992,2065539721,2017
+Erdenekhuiag,Bilguunkhavar,u0923999@utah.edu,khavar_81@yahoo.com,University of Utah,Bachelors,5/6/2018,Mining Engineering,,3/27/1996,801-888-6668,2018
+Erdenekhuug,Temuulen,e_timka@yahoo.com,e_timka@yahoo.com,DePaul University,Bachelors,5/1/2014,Computer Science,,10/20/1995,4047340156,2014
+Erdenemonkh,Onorbat,mazii_2002@hotmail.com,uerdenemunkh@clarku.edu,Clark University,Bachelors,5/1/2014,Physics,Math and Economics,10/29/1989,503-863-0101,2014
+Erdenetulga,Rentsen,erdenetulga_rentsen@brown.edu ,,Brown University,Bachelors,5/1/2015,Applied Math and Science,,,,2015
+Erdenetuya,Erdenebayar,eerden4@illinois.edu,erdenebayar.bayaraa@yahoo.com,University of illinois at urbana-champaign,Bachelors,5/12/2019,Industrial Engineering,,12/21/1995,7739644425,2019
+Erdenezhargal,Tomorbaatar,,,Georgia Institute of Technology,Bachelors,5/1/2015,Chemical Engineering,,,,2015
+Gan-Och,Binderiaa,bganoc2@illinois.edu,missmongol1@yahoo.com,University of Illinois at Urbana-Champaign,Bachelors,5/18/2018,Business Finance,,9/28/1995,312-866-2146,2018
+Gan-Od,Nomin,nomiko_0417@yahoo.com,nomin.ganod@smail.astate.edu,Arkansas State University,Bachelors,12/1/2015,Business Administration,,91/04/17,501-613-1197,2015
+Ganbaatar,Baasandar,bganbaatar2014@student.hult.edu,daria.avrora@yahoo.com,Hult International Business School,Bachelors,8/22/2018,Business Administration,Accounting,6/9/1995,99225757,2018
+Ganbaatar,Uianga,ganba005@umn.edu,chimeeguiuyangabn@yahoo.com,University of Minnesota Twin Cities,Bachelors,12/20/2017,Biochemisty,Biology,6/1/1994,6127078039,2017
+Ganbaatar,Khaliun,kg_khaliun@yahoo.com,ganba003@umn.edu,University of Minnesota,Bachelors,5/1/2013,Human Resources Development,Management,6/17/1992,612-598-7705,2013
+Ganbat,Zhavkhlan-Ochir,jganb001@plattsburgh.edu,javkhaa@live.com,SUNY Plattsburgh,Bachelors,5/1/2015,Computer Science,,9/25/1990,518-536-4083,2015
+Ganbat,Misheel,mg292454@email.vccs.edu,misheel.ganbat@yahoo.com,George Mason University,Bachelors,6/1/2018,Economics,Accounting,10/22/1996,571-409-8294,2018
+Ganbat,Khaliungoo,Khaliungoo.ganbat@vanderbilt.edu,E_khaliungo@yahoo.com,Vanderbilt University,Masters,5/25/2017,Development Economics,,5/26/1989,6158776319,2017
+Ganbat,Chinbat,chimb2006@yahoo.com,chimb2006@yahoo.com,University of Washington,Bachelors,6/1/2015,Business Administration,,8/12/1993,206-405-0042,2015
+Ganbold,Amar,amg414@lehigh.edu,amraa_kaze@yahoo.com,Lehigh University,Bachelors,5/1/2014,CompSci,,6/9/1989,610-570-9491,2014
+Ganbold,Gantogtokh,gganb60@students.campbellsville.edu,g_mgl95@yahoo.com,Campbellsville University,Bachelors,12/30/2017,Business Economics,,3/9/1995,(224) 410-2650,2017
+Ganbold,Li,ganbold.li@gmail.com ,,UC Berkeley,Bachelors,5/1/2015,Electrical Engineering,,,,2015
+Gankhuiag,Galkhuu,gaga0702@stcloudstate.edu,galkhuu@gmail.com,St Cloud State University,Bachelors,12/16/2015,Management HR,,8/12/1985,3202676767,2015
+Gansux,Ganerdene,gg349@lionmail.lindenwood.edu,ganerdene009@gmail.com,ganerdene009@gmail.com,Bachelors,5/31/2019,Business aministration,,12/4/1997,99400565,2019
+Gantogs,Dashdondog,,,St. Cloud State University,Bachelors,5/1/2010,Finance,,,,2010
+Gantulg,Tuvshinzaiaa,tuvshinred@yahoo.com,t.gantulga@ecla.de,Franklin and Marshall College,Bachelors,5/1/2011,Philosophy,,,,2011
+Gantulg,Tuvshinzaiaa,tuvshinred@yahoo.com,t.gantulga@ecla.de,Franklin and Marshall College,Bachelors,5/1/2011,Philosophy,Literature,5/2/1988,+491748493510,2011
+Gantulg,Erdene-Ochir,gantulga@unlv.nevada.edu,erdenee224@yahoo.com,University of Nevada Las Vegas,Bachelors,12/1/2013,Hospitality,,2/24/1990,702-752-0332,2013
+Ganzorig,Battulga,derjinski@gmail.com,bgwd6@mail.umsl.edu,UMSL,Bachelors,12/1/2013,Finance,Accounting,12/18/1986,314-445-9030,2013
+Ganzorig,Uuganbaiar,irmuun888@yahoo.com,u1222m@yahoo.com,Lindenwood University,Bachelors,5/1/2014,Finance,International Business,2/5/1992,None,2014
+Ganzorig,Mandakh,mandakh91@yahoo.com,mganz001@student.ucr.edu,University of California Riverside,Bachelors,5/1/2014,Business Administration,,10/29/1991,510-384-5537,2014
+Gerelsuren,Ider,ider1115@yahoo.com,igerelsu@mymail.mines.edu,Colorado School of Mines,Bachelors,6/1/2016,Petroleum Engineering,,8/3/1994,720-771-2383,2016
+Gerelt-Od,Anu-Uzhin,anuujin@mail.usf.edu,anuujin96@yahoo.co.uk,University of South Florida,Bachelors,5/1/2018,Economics,,6/24/1996,+18136937568,2018
+Gereltsogt,Uianga,UGERELTS@uwsuper.edu,uynga_1014@yahoo.com,University of Wisconsin-Superior,Bachelors,5/15/2018,Business Adminstration,,10/14/1996,7159694980,2018
+Gonchigdorzh,Torkhishig,turoo_gh@yahoo.com,tug214@lehigh.edu,Lehigh University,Bachelors,5/1/2014,Нийгэм болон нийгмийн сэтгэл судлал (social psychology/sociology)),,91/01/07,6105709490,2014
+Gunchin-Ish,Shinebaiar,,,University of Alaska Anchorage,Bachelors,5/1/2014,Finance,,,,2014
+Guntsengel,Niamkhuu,,,Bryant University,Bachelors,5/1/2013,International Business,,,,2013
+Ider,Gerelsuren,iveel666@gmail.com ,iveel@mit.edu ,Colorado School of Mines,Bachelors,5/1/2016,Petroleum Engineering,,,,2016
+Iveel,Tsogsuren,akhairat@asu.edu,amire.khairat@gmail.com,University of Massachusetts Dartmouth,Bachelors,5/1/2012,Engineering,,,,2012
+Khairat,Amire,,,Arizona State University,Bachelors,5/30/2019,Aeronautical Management Technology,,11/18/1998,7035894498,2019
+Khaliun,Ganbaatar,,,University of Minnesota,Bachelors,5/1/2013,Human Resources Development,,,,2013
+Khaliunaa,Purevzhav,khalt003@umn.edu,khalt003@umn.edu,University of Massachusetts Lowell,Bachelors,5/1/2015,Business Administration,,,,2015
+Khaltar,Bulgantamir,,,University of Minnesota,Bachelors,12/1/2012,Finance,,96/24/1989,253-737-8414,2012
+Khandariaa,Delgersaikhan,,,Pacific States University,Masters,5/1/2015,MBA Finance,,,,2015
+Khandsuren,Narantuiaa,akhasbaa@umflint.edu,,Utah State University,Bachelors,5/1/2015,Accounting,,,,2015
+Khasbaatar,Azzaiaa,khazaa1224@gmail.com,,University of Michigan-Flint,Bachelors,1/1/2018,Engineering,,12/24/1995,(810)3997060,2018
+Khasgerel,Tserenchimen,Megmng@mit.edu,Mephl0515@gmail.com,Massachusetts Institute of technology,Bachelors,6/20/2020,Сонгоогүй байгаа ( магадгүй физик),,5/22/1998,88227842,2020
+Khatantuul,Zorig,,,University of Virginia,Bachelors,5/1/2012,Mathematics,,,,2012
+Khishigsuren,Zhargalsaikhan,,,Amherst College,Bachelors,5/1/2017,Undecided,,,,2017
+Khishigzhargal,Tserenzhamts,,,Campbellsville University,Bachelors,5/1/2015,Nursing,,,,2015
+Khokhoog,Naranbulag,naranbulag9@yahoo.com,naranbulag9@yahoo.com,The John Marshall Law School in Chicago,Masters,6/1/2012,Master in Law,,86/08/30,312-823-2453 (In Mongolia: 99051936),2012
+Khulan,Monkhbaiar,,,University of Las Vegas Nevada,Bachelors,5/1/2012,Gaming Management,,,,2012
+Khulan,Baigalmaa,baigalkn@mail.uc.edu,khulanbaigalimaa@gmail.com,University of Cincinnati,Bachelors,5/22/2017,Intercultural Studies,Social Work,1/28/1995,215-385-2487,2017
+Khulan,Bat-Ider,,,Boston University,Bachelors,5/1/2015,Undecided,,,,2015
+Khulan,BatErdene,nkhurelkhuyag@stu.edu,nandin8808@gmail.com,University of Massachusetts Amherst,Bachelors,5/1/2016,Marketing BBA,,,,2016
+Khulan,Sergelen,,,Edinboro University of Pennsylvania,Bachelors,5/1/2015,Business Administration,,,,2015
+KhURELKhUIaG,NANDINChIMEG,nkhurelkhuyag@stu.edu,nandin8808@gmail.com,St. Thomas University,Masters,12/10/2017,Intercultural Human Rights,,3/12/1989,3312138371,2017
+Lkhagvabazar,Otgonzhargal,,,University of Washington,Bachelors,5/1/2015,Business Administration,,,,2015
+Lkhagvazhav,Enkhzhargal,Enjar0@yahoo.com,Enjar0@yahoo.com,University of North Texas,Bachelors,5/1/2015,Economics,,7/20/1993,940-297-9091,2015
+Lkhagvazhav,Enkhtor,Luvsandash@wisc.edu,Khando.luvsandash@gmail.com,University of Virginia,Bachelors,5/1/2015,Economics,Finance/Applied Mathematics,1/28/1994,4344222285,2015
+Luvsanbiamba,Buiankhuu,una0219@uw.edu,uranbileg0219@Gmail.com,UC Berkeley,Bachelors,5/1/2016,Computer Science,,,,2016
+Luvsandash,Luvsankhand,Luvsandash@wisc.edu,Khando.luvsandash@gmail.com,University of Wisconsin-Madison,Bachelors,5/20/2020,Biology,French,3/19/1997,6083389014,2020
+Luvsandorzh,Uranbileg,una0219@uw.edu,uranbileg0219@Gmail.com,University of Washington,Bachelors,6/1/2019,Undecided,,2/19/1997,2069548443,2019
+Luvsansharav,Bat-Olzii,batulziil@ku.edu,batulziil@ku.edu,University of Kansas,Bachelors,5/1/2012,accountng,finance,8/16/1989,785-727-5964,2012
+Magnai,Davaadagva,,,Indiana University,Bachelors,5/1/2015,Public Financial Management,,,,2015
+Mandakh,Bekhbat,,,Vassar College,Bachelors,5/1/2013,Neuroscience,,,,2013
+Mandakh,Ganzorig,,,University of California Riverside,Bachelors,5/1/2014,Business Administration,,,,2014
+Mandukhai,Ganbaatar,,,College of Saint Scholastica,Bachelors,5/1/2011,Biology,,,,2011
+Manlaibaatar,Togsbaiasgalan,tugsuu@mit.edu,tugsbaysgalan14@gmail.com,Massachusetts Institute of Technology,Bachelors,6/7/2019,computer science,,2/3/1998,18572309481,2019
+Manzh,Tsogbat,Tsogbatm@utexas.edu,Tsogbatm@utexas.edu,University of Texas at Austin,Masters,12/16/2016,Engineering Management,,8/29/1988,5127700947,2016
+Maral,Tuvshinzhargal,,,University of Central Arkansas,Bachelors,5/1/2012,BBA,,,,2012
+Maralmaa,Monkh-Achit,,,Brigham Young University,Bachelors,5/1/2014,Business Management,,,,2014
+Mashbaiar,Sukhbat,,,University of Massachusetts Lowell,Bachelors,5/1/2017,Biology,,,,2017
+Miagmarsuren,Batbaiar,,,Minnesota State University Mankato,Bachelors,5/1/2015,Electronic Engineering Technology,,,,2015
+Miagmarzhav,Bold,monjib@uw.edu,mongoljinb@hotmail.com,Iowa State University,Bachelors,5/1/2015,Computer Engineering,,,,2015
+Miagmarzhav,Gantsetseg,gxm8982@rit.edu,m.gantsetseg@gmail.com; mtseegi@yahoo.com,Rochester Institute of Technology,Masters,5/20/2018,MBA Accounting,,12/26/1988,976-99024892,2018
+Mongolzhin,Bat-Erdene,monjib@uw.edu,mongoljinb@hotmail.com,University of Washington,Bachelors,6/1/2018,Pre-Medicine,,4/4/1997,95934240,2018
+Mongonzul,Badamvaanchig,,,California State University Northridge,Bachelors,5/1/2015,Finance,,,,2015
+Monkh-Achit,Maralmaa,mun11010@byui.edu,marlaa_mn@yahoo.com,Brigham Young University,Bachelors,4/1/2014,Business Management,Communications,10/21/1993,701-430-3679,2014
+Monkhbaiar,Ganbold,,,University of Anchorage,Bachelors,5/1/2015,Computer Science,,,,2015
+Monkhbaiar,Urlee,chik_lady@yahoo.com,chik_lady@yahoo.com,East-West University,Bachelors,6/1/2013,Computer Information Science,International Business,8/21/1988,773-610-5062,2013
+Monkhbaiar,Khulan,mi_khulan@yahoo.com,,University of Las Vegas Nevada,Bachelors,12/1/2012,Gaming Management,,10/20/1990,7024261748,2012
+Monkhdalai,Egiimaa,munkhdalai@wisc.edu,m.egiimaa@yahoo.com,University of Wisconsin Madison,Bachelors,5/20/2018,Ecology,,8/26/1994,6086924060,2018
+Monkhgerel,Monkhzhargal,ariunbold.munkhtur.mn@usma.edu,ari.munkhtur@gmail.com,Minnesota State University Moorhead,Bachelors,5/1/2016,Finance,,,,2016
+Monkhoo,Nominsuren,m_nomin_89@yahoo.com,,Washington University in St. Louis,Masters,5/1/2013,MSW Social Economic Development,Management specialization,6/27/1989,88073365,2013
+Monkhtor,Ariunbold,ariunbold.munkhtur.mn@usma.edu,ari.munkhtur@gmail.com,United States Military Academy,Bachelors,5/29/2019,Information Technology,,1/20/1996,6095755459,2019
+Monkhzaiaa,Bor,,,Campbellsville University,Masters,5/1/2015,MBA,,,,2015
+Monkhzhargal,Binderiaa,BM11@albion.edu,binderya0390@gmail.com,Albion college,Bachelors,5/1/2019,international relations,,9/30/1998,7734318650,2019
+Monkhzhargal,Narmandakh,Munkh60gal.mn@gmail.com,,University of Massachusetts,Bachelors,5/1/2017,Computer Science,,,,2017
+Munkhchuluun,Anudari,munkhe@uw.edu,emmamunkhtur@gmail.com,Virginia Commonwealth University,Bachelors,5/15/2019,Psychology,Political Science with concentration in US government,3/31/1997,7034772474,2019
+Munkhjargal,Munkhbat,Mb_5557@yahoo.com,Mb_5557@yahoo.com,Earlham College,Bachelors,5/5/2019,Economics,politics,10/1/1996,(765)267-5729,2019
+Munkhtur,Erdenebileg,munkhe@uw.edu,emmamunkhtur@gmail.com,University of Washington,Bachelors,6/11/2017,Business Finance and Marketing,,3/24/1995,425-343-3430,2017
+Munkhtuya,Azzaya,namshirb@cwu.edu,bennamsh@gmail.com,University of Illinois Urbana-Champaign,Bachelors,5/1/2019,Nuclear Engineering,,6/15/1997,8083437646,2019
+Namiraa,Balzhinniam,,,Gallaudet University,Masters,5/1/2014,Deaf Education,,,,2014
+Namshir,Batkhaan,namshirb@cwu.edu,bennamsh@gmail.com,Central Washington University,Bachelors,6/9/2016,Political Science,Administrative Management,7/27/1996,206-673-7264,2016
+Namuun,Baatarzhav,,,Lindenwood University,Bachelors,5/1/2015,Graphic Design,,,,2015
+Namuun,Bat,,,Tai Sophia Institute,Masters,5/1/2013,Herbal Studies,,,,2013
+Namuun,Batbaatar,,,Lindenwood University,Bachelors,5/1/2015,Chemistry,,,,2015
+Namuun,Baiaraa,,,UC Berkeley,Bachelors,5/1/2014,Nutritional science,,,,2014
+Namuun,Bold,,,Cornell University,Bachelors,5/1/2016,Undeclared,,,,2016
+Namuun,Purevdorzh,,,Mount Holyoke College,Bachelors,5/1/2015,Undeclared,,,,2015
+Namuundari,Zorigtbaatar,,,,Bachelors,5/7/2020,Civil Engineer,Math Minor,,,2020
+Nandin,Erdene,,,Ringling College of Art and Design,Bachelors,5/1/2015,Business of Art and Design,,,,2015
+Naranbat,Dulguunnaran,dn10@albion.edu,dulguunnaran@gmail.com,Albion College,Bachelors,6/1/2019,Biology,Political Science,10/1/1997,517 499 7196,2019
+Naranbat,Battushig,naranbatb68@peacocks.uiu.edu,starla_tushika@yahoo.com,Upper Iowa University,Bachelors,10/14/2016,International Business,,10/27/1995,4158583381,2016
+Naranbulag,Khokhoo,,,The John Marshall Law School in Chicago,Masters,5/1/2012,Master in Law,,,,2012
+Naranchimeg,Tomorbaatar,,,Webber International University,Bachelors,5/1/2012,Marketing,,,,2012
+Narangerel,Khaliun,khaliun.narangerel@tufts.edu,khaliun.narangerel@gmail.com,Tufts University,Bachelors,6/1/2020,Undecided,Undecided,8/30/1999,+97699083001,2020
+Narangerel,Tsogzhavkhlan,TNarangerel01@wildcats.jwu.edu,tsogoo_cr@yahoo.com,Johnson & Wales university,Bachelors,9/30/2019,Electronic Engineer,,3/24/1997,(646)932-7435,2019
+Niamaa,Tsakhirmaa,tsakhirm@buffalo.edu,amethystorchid8@yahoo.com,SUNY at Buffalo,Bachelors,5/9/2019,undecided,,5/5/1997,7168675809,2019
+Ninzhin,Bilegsaikhan,,,Albion College,Bachelors,5/1/2016,Finance,,,,2016
+Nomin,Belegbaiar,,,Park University,Bachelors,5/1/2012,Finance,,,,2012
+Nomin,Gan-Od,,,Arkansas State University,Bachelors,5/1/2015,Business Administration,,,,2015
+Nomin,Gereltbaatar,,,Western Illinois University,Bachelors,5/1/2016,Finance,,,,2016
+Nomin,Khishigsuren,,,Brown University,Bachelors,5/1/2017,Engineering Physics,,,,2017
+Nomin,Tsas,,,Fashion Institute of Technology,Bachelors,5/1/2016,Fashion Design,,,,2016
+Nomin-Erdene,Boldbaatar,,,Roosevelt University,Bachelors,5/1/2014,Premedicine,,,,2014
+Nominsuren,Monkhoo,,,Washington University in St. Louis,Masters,5/1/2013,MSW Social Economic Development,,,,2013
+Nominzul,Amartsengel,,,Chatham University,Bachelors,5/1/2013,Business,,,,2013
+Nomko,Baatar,,,New York University,Bachelors,5/1/2017,Economics,,,,2017
+Nomuulin,Namdag,,,Columbia University Mailman School of Public Health,Masters,5/1/2015,Public Health,,,,2015
+Norovsuren,Chinbat,,,Purdue University,Bachelors,5/1/2017,Business Management,,,,2017
+Od,Gerelmaa,Gerelmaa.od@ndus.edu,O.gerelmaa@yahoo.com,Dickinson state university,Bachelors,5/14/2016,Business Administration,Accounting,2/19/1996,7015905254,2016
+Odniam,Baiaaraa,,,University of Massachusetts Dartmouth,Bachelors,5/1/2017,Business Administration,,,,2017
+Odontsetseg,Bat-Erdene,,,Suffolk University,Bachelors,5/1/2012,Finance,,,,2012
+Ogoomor,Burentogs,,,Illinois Institute of Technology,Bachelors,5/1/2014,Engineering,,,,2014
+Oiuu,Choizhamts,,,Харвардын Их Сургууль,Bachelors,5/1/2016,Undeclared,,,,2016
+Oiuumaa,Batbaatar,,,Lindenwood University,Bachelors,5/1/2016,Finance,,,,2016
+Oiuumaa,Daichinkhuu,,,Washington and Lee University,Bachelors,5/1/2016,Economics,,,,2016
+Oiuunsuren,Enkhbat,,,University of Wisconsin-Eau Claire,Bachelors,5/1/2014,Economics,,,,2014
+Oiuunsuvd,Chinbat,,,University of Alaska Fairbanks,Bachelors,5/1/2014,Biology,,,,2014
+Olonbaatar,Bodrol,olonbb@uw.edu,bodrolob@gmail.com,University of Washington,Bachelors,6/10/2020,N/A,,6/6/1998,+14255998530,2020
+Olziibaiar,Otgonbaatar,j2i2t2u2@gmail.com,,Massachusetts Institute of Technology,Bachelors,5/1/2014,Computer Science,,,,2014
+Onorbat,Erdenemonkh,,,Clark University,Bachelors,5/1/2014,Physics,,,,2014
+Orgil,Zandantsetseg,orgil.1@osu.edu,Zanda15@yahoo.com,ohio state university,Bachelors,5/22/2019,neuro science,,7/11/1996,8323821262,2019
+orgil,enkhlen,eorgil2@illinois.edu,o_enhlen@yahoo.com,University of illinois at urbana-champaign,Bachelors,6/1/2020,undecided,,2/28/1999,7736663645,2020
+Osokhbaiar,Bokhchuluun,,,University of Massachusetts Lowell,Bachelors,5/1/2016,Biotechnology,,,,2016
+Otgonbaatar,Uuganbaiar,uuganbayarotgonbaatar@gmail.com,uugan_88@mit.edu,MIT,Masters,6/1/2013,Nuclear Engineering,Physics,7/30/1988,6178005132,2013
+Otgonbaiar,Altanchimeg,otgonbaa@ius.edu,chimegeee_mgl@yahoo.com,Indiana University Southeast,Bachelors,5/5/2016,Finance,International business,9/23/1992,5022954021,2016
+Otgonchimeg,Davaadorzh,,,University of Massachusetts,Bachelors,5/1/2016,Electrical Engineering,,,,2016
+Otgonkhuiag,Khaliunaa,ko279@cornell.edu,khaliunaa14343@yahoo.com,Cornell University,Bachelors,6/1/2018,Applied Economics and Management,Environmental Engineering,10/7/1997,99097942,2018
+Otgonzhargal,Altangerel,,,Emory University,Bachelors,5/1/2018,Pre-Med,,,,2018
+Otgonzhargal,Khatanzaiaa,ko27@uw.edu,hataka96@yahoo.com,University of Washington,Bachelors,6/11/2019,Liberal Arts,,6/11/1996,99696970,2019
+Oyuka,Ganbaatar,,,,Masters,1/1/2021,Policy Analysis,,,,2021
+Pagmazhav,Miagmarkhuu,,,Ohio State University,Bachelors,5/1/2014,Finance,,,,2014
+Purevdorzh,Anarmaa,Anarmaa_purevdorj@student.uml.edu,anar8989@yahoo.com,University of Massachusetts Lowell,Bachelors,1/20/2018,Biotechnology,,9/10/1995,852658595,2018
+Purevdorzh,Namuun,purev22n@mtholyoke.edu,namuunp_mgl@yahoo.com,Mount Holyoke,Bachelors,5/1/2015,Undecided,Minor in Global Bussiness,3/23/1993,413-210-2960,2015
+Purevsuren,Munkhnaran,Phmonmon@vt.edu,Phmonmon1@gmail.com,Virginia Tech,Bachelors,5/15/2017,Accounting,,4/8/2016,703-650-8986,2017
+Saran,Amartuvshin,,,Smith College,Bachelors,5/1/2012,Economics,,,,2012
+Saranzaiaa,Sainkhuu,,,University of California Riverside,Bachelors,5/1/2013,Studio Art,,,,2013
+Saruul,Batdorzh,,,United States Military Academy,Bachelors,5/1/2016,Mechanical or Civil Engineer,,,,2016
+Selengemoron,Tuvshin,,,University of California Los Angeles,Bachelors,5/1/2013,Linguistics,,,,2013
+Sergelengiin,Khulan,,,Edinboro University of Pennsylvania,Bachelors,5/1/2015,Business Administration,,2/23/1993,814-460-3772,2015
+Setsen,Altan-Ochir,,,Cornell College,Bachelors,5/1/2015,Economics,,,,2015
+Shinebaiar,Gunchin-Ish,,,University of Alaska Anchorage,Bachelors,5/1/2014,Finance,,9/11/1992,9079048481,2014
+Sodbaatar,Tugs-Ochir,sodbaata@msu.edu,tugs76@gmail.com,Michigan State University,Bachelors,5/5/2020,Mechanical Engineering,,7/13/1998,(517)940-1793,2020
+Sodgerel,Chinburen,,,University of New England,Bachelors,5/1/2017,Business Administration,,,,2017
+Sodzhamts,Enkhbat,,,North Central College,Bachelors,5/1/2017,Engineering,,,,2017
+Solongo,Altanpurev,,,Laney College,Bachelors,5/1/2016,Architecture,,,,2016
+Solongo,Bishrelt,bsolongo@hawk.iit.edu,bishreltsolongo@yahoo.com,Illinois Institute of Technology,Bachelors,12/12/2016,Architecture,,4/6/1993,94492939,2016
+Soyolerdene,Gantugs,soyolerdeneg69@peacocks.uiu.edu,sgantugs@gmail.com,Upper Iowo University,Bachelors,5/8/2017,Financial Management,Marketing,7/5/1995,5632652428,2017
+Sugar,Nomin,nsugar@umail.iu.edu,nomie721@gmail.com,Indiana University Southeast,Masters,6/5/2017,Biology,,7/24/1995,8123999156,2017
+Sugarmaa,Bat-Erdene,,,Wesleyan College,Bachelors,5/1/2016,Psychology,,,,2016
+Sukhbaatar,Mandukhai,sukhbaatam@cwu.edu,mandykelly94@gmail.com,Central Washington University,Bachelors,6/28/2019,Construction Management,,11/23/1996,5093129811,2019
+Sukhbat,Lkhagvadorzh,,,Wesleyan University,Bachelors,5/1/2015,Economics,,,,2015
+Sukhkhuiag,Erdene,,,Lehigh University,Bachelors,5/1/2014,Computer Science,,,,2014
+Surmaa,Khulan,ksurmaa@ucdavis.edu,khulan0808@yahoo.com,UC Davis,Bachelors,6/10/2016,Economics,,8/8/1994,510-332-2676,2016
+Taivan,Batzhargal,,,UC Berkeley,Bachelors,5/1/2016,Undeclared,,,,2016
+Tamir,Uianga,utamir@princeton.edu,,Princeton University,Bachelors,6/1/2015,Chemical Engineering,,6/17/1993,720-382-9012,2015
+Temuge,Enkhbaatar,,,Massachusetts Institute of Technology,Bachelors,5/1/2014,Computer Science,,,,2014
+Temuulen,Erdenekhuu,,,DePaul University,Bachelors,5/1/2015,Computer Science,,,,2015
+Tengisbold,Zorigt,,,University of Massachusetts Lowell,Bachelors,5/1/2017,Civil Engineering,,,,2017
+Tergel,Uchral,ut34@cornell.edu,uchraltergel@gmail.com,Cornell University School of Hotel Administration,Bachelors,12/17/2018,Hotel Administration with a Minor in Real Estate,,5/31/1997,(224)392-4010,2018
+Tergel,Erdenetsogt,,,Furman University,Bachelors,5/1/2017,Neuroscience,,,,2017
+Tod-Od,Enkhbaiar,,,University of Illinois,Masters,5/1/2013,Accounting,,,,2013
+Togoldor,Chinbat,,,Utah State University,Bachelors,5/1/2015,Entrepreneurship/Business Admin,,,,2015
+Tomorkhuiag,Tsenguun,tse_tumuru@yahoo.com,tumur22t@mtholyoke.edu,Mount Holyoke College,Bachelors,5/1/2015,Environmental Studies Subject to change,Law and Public Policy Subject to change,6/15/1991,414-328-1334,2015
+Torkhishig,Gonchigdorzh,tsatsa@umich.edu ,,Lehigh University,Bachelors,5/1/2014,Sociology,,,,2014
+Tsaschikher,Chuluunbaatar,,,East-West University,Bachelors,5/1/2014,International Relations,,,,2014
+Tsatsral,Batbold,,,Earlham College,Bachelors,5/1/2014,International Relations,,,,2014
+Tsatsral,Battsengel,tsatsa@umich.edu ,,University of Michigan,Bachelors,5/1/2016,Engineering,,,,2016
+Tsedev,Uianga,Tsendayush@email.arizona.edu,Chagimgl@gmail.com,Harvard College,Bachelors,5/1/2013,,,91/12/21,808-597-4742,2013
+Tseelmaa,Biambaakhuu,,,University of Massachusetts Lowell,Bachelors,5/1/2016,Chemical Engineering,,,,2016
+Tselmegtsetseg,Tsetsendelger,,,Kenyon College,Bachelors,5/1/2015,International Studies,,,,2015
+Tsend-Aiuush,Chandman-Erdene,,,University of Arizona,Bachelors,5/15/2020,Computer science,,9/3/1997,520 312 2166,2020
+Tsenguun,Badamsed,,,Cornell University,Bachelors,5/1/2012,ORIE,,,,2012
+Tsenguun,Tomorkhuiag,Atserenchimed@lincolnucasf.edu,Ariuka_624@yahoo.com,Mount Holyoke College,Bachelors,5/1/2015,Environmental Studies Subject to change,,,,2015
+Tsenguun,Tsogbadrakh,,,University of Massachusetts Dartmouth,Bachelors,5/1/2016,Civil Engineering,,,,2016
+Tserenbiamba,Zolboo,zut28@psu.edu,zolboo3133@gmail.com,Pennsylvania State University University Park,Bachelors,6/6/2020,Material Science and Engineering,,8/31/1997,80189798,2020
+Tserenchimed,Ariunzul,,,Lincoln university,Masters,6/1/2016,Financa management,,10/3/1990,5107102540,2016
+Tserendavaa,Orkhon,orkhon17@gmail.com,,Virginia International University,Masters,1/1/2018,Health care management,,4/7/1991,99008821,2018
+Tserendulam,Ulam-Orgikh,,,University of Wisconsin-Madison,Bachelors,5/1/2017,Engineering,,,,2017
+Tsetsendelger,Tselmegtsetseg,tsetsendelgert@kenyon.edu,ts.tselmeg@gmail.com,Kenyon College,Bachelors,5/1/2015,International Studies,Russian,11/4/1992,510-861-4804,2015
+Tseveen,Purev,,,South Dakota Schoo of Mines,Bachelors,5/1/2015,Mining Engineering,,,,2015
+Tsevegsuren,Nomuun,nomuun_tsevegsuren@student.uml.edu,ts.nomuun@gmail.com,University of Massachusetts Lowell,Bachelors,5/10/2018,Biotechnology,,4/25/1996,2243342217,2018
+Tsogbaiar,Zolboo,mnzolboo@yahoo.com,ztsogbayar@css.edu,College of Saint Scholastica,Bachelors,6/1/2015,Accounting/Finance,,1/24/1995,218-428-0882,2015
+Tsogsuren,Iveel,iveel6@yahoo.com,itsogsuren@umassd.edu,University of Massachusetts Dartmouth,Bachelors,12/6/2012,engineering,,3/6/1992,0,2012
+Tsogt,Agiimaa,,s_agiimaa@yahoo.com,University of Nevada Las Vegas,Bachelors,5/1/2012,Management Information Systems,Accounting,3/26/1990,702-981-5052,2012
+Tsogt,Baigalmaa,,,University of Massachusetts Lowell,Bachelors,5/1/2017,Physics,,,,2017
+Tsolmon,Enebish,,,George Mason University,Bachelors,5/1/2015,Healthcare administration,,,,2015
+Tuvshinbat,Aldarsaikhan,aldaraat@gmail.com,aldaraa_t@yahoo.com,Massachusetts Institute of Technology,Bachelors,6/1/2012,Architecture,,8/16/1987,617-852-0831,2012
+Tuvshintor,Dandarvanchigt,,,University of Massachusetts Dartmouth,Bachelors,5/1/2017,Engineering,,,,2017
+Tuvshinzhargal,Anarsaikhan,atuvshi1@swarthmore.edu,anarsaikhana@gmail.com,Swarthmore College,Bachelors,5/23/2021,Cognitive Science,Computer Science,3/22/1998,484 474 7856,2021
+Tuvshinzhargal,Maral,maral504@yahoo.com,,University of Central Arkansas,Bachelors,5/1/2012,BBA,,5/4/1990,5012699695,2012
+Uianga,Tamir,,,Princeton University,Bachelors,5/1/2015,Chemical Engineering,,,,2015
+Uianga,Tsolmonkhvv,,,University of California San Diego,Bachelors,5/1/2017,International Studies,,,,2017
+Uianga,Tsedev,,,Harvard College,Bachelors,5/1/2013,Undeclared,,,,2013
+Uranbaigal,Enkhtor,,,University of Minnesota,Bachelors,5/1/2017,Physics,,,,2017
+Urandar,Biambadalai,batutsoji@yahoo.com,buvsh@indiana.edu,University of Michigan,Bachelors,5/1/2016,Public Policy,,,,2016
+Urlee,Monkhybaiar,ayavuukhulan@sva.edu,anuyavuukhulan@gmail.com,East-West University,Bachelors,5/1/2013,Computer Information Science,,,,2013
+Uuganbaiar,Ganzorig,,,Lindenwood University,Bachelors,5/1/2014,Finance,,,,2014
+Uuganbaiar,Otgonbaatar,ujargal2@jhu.edu,Undral.jargal@gmail.com,Massachusetts Institute of Technology,Masters,5/1/2013,Nuclear Engineering,,,,2013
+Uvsh,Battsoozh,bjargals@umich.edu,j.frij8@gmail.com,Indiana University,Masters,5/1/2013,Information Systems,,4/5/1990,812-606-9199,2013
+Yavuukhulan,Anu,Iamforworldpeace@gmail.com,Bjargalsaikhan@berkeley.edu,School of Visual Arts,Bachelors,6/1/2018,Graphic Design,,8/9/1996,9178322591,2018
+Zhantsankhorol,Damdinsuren,,,University of California Berkeley,Bachelors,5/1/2014,Political Science,,,,2014
+Zhargal,Undral,ujargal2@jhu.edu,Undral.jargal@gmail.com,Johns Hopkins University Carey Business School,Bachelors,5/22/2018,Business Administration,,8/28/1997,(206) 822-5195,2018
+Zhargalsaikhan,Baasanzhav,bjargals@umich.edu,j.frij8@gmail.com,The University of Michigan-Dearborn,Bachelors,5/1/2019,Robotics engineering,,1/26/1996,3133301944,2019
+Zhargalsaikhan,Badamtsetseg,Iamforworldpeace@gmail.com,Bjargalsaikhan@berkeley.edu,University of California Berkeley,Bachelors,6/1/2013,Microbial biology,,,510-501-7490,2013
+Zhavkhlan-Ochir,Ganbat,,,SUNY Plattsburgh,Bachelors,5/1/2015,Computer Science,,,,2015
+Zhiguur,Ariunbold,,,Quinnipiac University,Bachelors,5/1/2017,Finance,,,,2017
+Zolboo,Tsogbaiar,,,College of Saint Scholastica,Bachelors,5/1/2015,Accounting/Finance,,,,2015
+Zolboot,Norzhin,norjin@scripps.edu,norjin_z@yahoo.com,The Scripps Research Institute,Доктор,7/31/2022,Biology,,1/13/1995,1-858-866-4866,2022
+Zolzaiaa,Miagmar,,,California State University Los Angeles,Masters,5/1/2014,Public administration,,,,2014
+Zolzaiaa,Erdenebileg,,,Kenyon College,Bachelors,5/1/2014,Economics,,,,2014
+Zorig,Khatantuul,ztuul0703@yahoo.com,kz8cd@virginia.edu,University of Virginia,Bachelors,5/1/2012,Mathematics,,7/3/1989,540-819-5748,2012
+Zorigoo,Togsbaiar,tzorigoo93@gmail.com ,ztugsbayar@college.harvard.edu ,Harvard University,Bachelors,5/1/2015,Statistics,,,,2015
+Zorigtbaatar,Chuluundorzh,,,University of Massachusetts Lowell,Bachelors,5/1/2015,Computer Science,,,,2015

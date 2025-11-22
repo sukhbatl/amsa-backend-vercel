@@ -1,0 +1,46 @@
+stages:
+  - deploy
+
+.deploy_template: &deploy_template
+  image: alpine:3.19
+  stage: deploy
+  before_script:
+    - apk add --no-cache openssh-client bash git
+    - mkdir -p ~/.ssh
+    - echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - printf "Host *\n  StrictHostKeyChecking no\n" > ~/.ssh/config
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "master"'
+
+prod-deploy:
+  <<: *deploy_template
+  script:
+    - |
+      ssh -i ~/.ssh/id_rsa "$VM_USER@$VM_HOST" bash -s << 'EOF'
+      set -euo pipefail
+
+      REPO_DIR="${DEPLOY_PATH:-/root/amsa/amsa-backend}"
+
+      if [ ! -d "$REPO_DIR/.git" ]; then
+        echo "Repo not found at $REPO_DIR or not a git repo" >&2
+        exit 1
+      fi
+
+      cd "$REPO_DIR"
+
+      # Ensure correct branch and clean working tree
+      git fetch --all --prune
+      git reset --hard origin/master
+      git clean -fdx
+
+      # Install dependencies
+      npm install
+
+      # Restart backend service
+      pm2 delete "AMSA Backend" || true
+      pm2 start server.js --name "AMSA Backend"
+      pm2 save
+      EOF
+
+
