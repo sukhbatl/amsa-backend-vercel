@@ -137,6 +137,38 @@ app.use('/api/members', membersRoutes);
 app.use('/api/home', homeRoutes);
 app.use('/api/search', searchRoutes);
 
+// Temporary debug endpoint (do not expose in production) — returns DB host Node sees and DNS lookup result
+app.get('/__debug/db-host', async (req, res) => {
+    try {
+        const raw = process.env.DATABASE_URL || process.env.DB_URL || null;
+        let host = null;
+        if (raw) {
+            try {
+                // Use URL to parse host; works if DATABASE_URL includes protocol (postgres://...)
+                host = new URL(raw).hostname;
+            } catch (e) {
+                // Fallback: extract between @ and : or /
+                const afterAt = raw.split('@')[1] || raw;
+                host = afterAt.split(':')[0].split('/')[0];
+            }
+        }
+
+        const dns = require('dns').promises;
+        let lookup = null;
+        if (host) {
+            try {
+                lookup = await dns.lookup(host);
+            } catch (e) {
+                lookup = { error: e.message };
+            }
+        }
+
+        return res.json({ host: host || null, lookup });
+    } catch (err) {
+        return res.status(500).json({ error: String(err) });
+    }
+});
+
 console.log('Username:', process.env.AMSA_MYSQL_USER);
 console.log('Database:', process.env.AMSA_MYSQL_DATABASE);
 
