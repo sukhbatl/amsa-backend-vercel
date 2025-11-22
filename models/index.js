@@ -70,6 +70,10 @@ db.initPromise = (async function initWithRetry() {
         }
       });
 
+      // Sync models to database (create tables if missing)
+      console.log('Syncing database models...');
+      await sequelize.sync();
+
       db.sequelize = sequelize;
       db.Sequelize = Sequelize;
       db._ready = true;
