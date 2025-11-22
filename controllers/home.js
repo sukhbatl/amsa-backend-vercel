@@ -8,6 +8,7 @@ module.exports.getHomeData = async(req, res, next) => {
         // If models haven't been initialized yet (Sequelize retry in progress), return 503 so clients can retry.
         if (!Post) {
             console.warn('getHomeData: DB models not ready yet');
+            res.setHeader('Retry-After', '3');
             return res.status(503).json({ message: 'Service temporarily unavailable. DB not ready.' });
         }
         const promises = [];
