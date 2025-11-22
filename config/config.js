@@ -27,6 +27,14 @@ if (process.env.DATABASE_URL) {
         productionConfig.database = dbUrl.pathname.split('/')[1];
         productionConfig.host = dbUrl.hostname;
         productionConfig.port = dbUrl.port;
+
+        console.log('Parsed DB Config:', {
+            host: productionConfig.host,
+            port: productionConfig.port,
+            database: productionConfig.database,
+            username: productionConfig.username,
+            ssl: productionConfig.dialectOptions.ssl
+        });
     } catch (e) {
         console.error('Failed to parse DATABASE_URL:', e);
     }
