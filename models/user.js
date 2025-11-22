@@ -27,12 +27,12 @@ module.exports = (sequelize, DataTypes) => {
     schoolName: DataTypes.STRING,
     hash: DataTypes.STRING,
     hashExpiresAt: DataTypes.DATE,
-    emailVerified: DataTypes.TINYINT,
+    emailVerified: DataTypes.BOOLEAN,
     level: DataTypes.INTEGER,
     bio: DataTypes.TEXT,
     profilePic: DataTypes.STRING,
   }, {});
-  User.associate = function(models) {
+  User.associate = function (models) {
     User.hasMany(models.Post);
     User.hasMany(models.Role);
     User.hasMany(models.Comment);
