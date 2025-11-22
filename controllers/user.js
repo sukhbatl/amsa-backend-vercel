@@ -65,7 +65,7 @@ exports.updateProfile = async (req, res, next) => {
                 // If it's an ISO date string, extract just the date part
                 birthday = birthday.split('T')[0];
             }
-            
+
             const new_user = {
                 email: req.body.email,
                 firstName: req.body.firstName,
@@ -203,7 +203,7 @@ exports.getPublicUser = async (req, res, next) => {
             "email",
             "personalEmail",
         ];
-        
+
         const user = await User.findOne({
             where: { id: userId },
             attributes: { exclude },
@@ -270,90 +270,90 @@ exports.changePassword = async (req, res, next) => {
 
 exports.forgotPasswordEmail = async (req, res, next) => {
     try {
-            const { email } = req.body;
-            console.log(email);
+        const { email } = req.body;
+        console.log(email);
 
-            if (!email || typeof email !== 'string') {
-                return res.status(400).json({ message: 'Invalid email input' });
-            };
+        if (!email || typeof email !== 'string') {
+            return res.status(400).json({ message: 'Invalid email input' });
+        };
 
-            // console.log('tring to find user');
-            const user = await User.findOne({where: {email}});
-            
-            if (!user) {
-                return res.status(404).json({ message: 'Email not found!' });
-            };
-            // console.log(user.email);
-            
-            // const hash = crypto.randomBytes(48).toString('hex');
-            const chars = 'abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWYXZ';
-            const hashArr = [];
-            for (let i = 0; i < 64; i++) {
-                hashArr.push(chars[Math.floor(Math.random() * chars.length)]);
-            }
-            const hash = hashArr.join('');
-            const expiresAt = new Date(Date.now() + 1000 * 60 * 60); // 1 hour
+        // console.log('tring to find user');
+        const user = await User.findOne({ where: { email } });
 
-            console.log(hash);
-            
-            await user.update({
-                hash,
-                hashExpiresAt: expiresAt,
-            });
+        if (!user) {
+            return res.status(404).json({ message: 'Email not found!' });
+        };
+        // console.log(user.email);
 
-            const resetLink = `https://amsa.mn/reset?hash=${encodeURIComponent(hash)}&email=${encodeURIComponent(email)}`;
+        // const hash = crypto.randomBytes(48).toString('hex');
+        const chars = 'abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWYXZ';
+        const hashArr = [];
+        for (let i = 0; i < 64; i++) {
+            hashArr.push(chars[Math.floor(Math.random() * chars.length)]);
+        }
+        const hash = hashArr.join('');
+        const expiresAt = new Date(Date.now() + 1000 * 60 * 60); // 1 hour
 
-            // await user.update({hash});
+        console.log(hash);
 
-            await sendEmail(
-                email,
-                'amsa.mn - Password reset',
-                `
+        await user.update({
+            hash,
+            hashExpiresAt: expiresAt,
+        });
+
+        const resetLink = `https://amsa.mn/reset?hash=${encodeURIComponent(hash)}&email=${encodeURIComponent(email)}`;
+
+        // await user.update({hash});
+
+        await sendEmail(
+            email,
+            'amsa.mn - Password reset',
+            `
                     <p>You requested a password reset.</p>
                     <p>Click <a href="${resetLink}" target="_blank">here</a> to reset your password.</p>
                     <p>This link will expire in 1 hour.</p>
                 `
-            );
+        );
 
-            return res.status(200).json({
-                message: 'Password reset email sent!',
-            });
-        } catch (e) {
-            console.error('Forgot password error:', e);
-            return res.status(500).json({
-                message: "Server not available",
-            });
-        }
+        return res.status(200).json({
+            message: 'Password reset email sent!',
+        });
+    } catch (e) {
+        console.error('Forgot password error:', e);
+        return res.status(500).json({
+            message: "Server not available",
+        });
+    }
 };
 
 exports.resetPassword = async (req, res, next) => {
-        try {
-            const { email, password, hash } = req.body;
-            
-            const user = await User.findOne({
-                where: {email, hash},
-            });
+    try {
+        const { email, password, hash } = req.body;
 
-            if (!user || !user.hashExpiresAt || new Date() > user.hashExpiresAt) {
-                throw new BadRequestException('Invalid or expired reset link.');
-            }
+        const user = await User.findOne({
+            where: { email, hash },
+        });
 
-            const hashPassword = await bcrypt.hash(password, 10);
-
-            await user.update({ 
-                password: hashPassword, 
-                hash: null,
-                hashExpiresAt: null,
-            });
-
-            return res.status(200).json({
-                message: 'Password reset successfully!',
-            });
-        } catch (e) {
-            console.error('Reset Password Error:', e);
-            return res.status(500).json({ message: 'Server error' });
+        if (!user || !user.hashExpiresAt || new Date() > user.hashExpiresAt) {
+            throw new BadRequestException('Invalid or expired reset link.');
         }
+
+        const hashPassword = await bcrypt.hash(password, 10);
+
+        await user.update({
+            password: hashPassword,
+            hash: null,
+            hashExpiresAt: null,
+        });
+
+        return res.status(200).json({
+            message: 'Password reset successfully!',
+        });
+    } catch (e) {
+        console.error('Reset Password Error:', e);
+        return res.status(500).json({ message: 'Server error' });
     }
+}
 
 exports.updateProfilePic = async (req, res, next) => {
     try {
@@ -361,8 +361,9 @@ exports.updateProfilePic = async (req, res, next) => {
         if (!image) {
             return res.status(422).json({ message: "Image not a valid" });
         }
-        const currentFolder = __dirname.split(path.sep).pop();
-        const imagePath = image.path.substring(__dirname.length - currentFolder.length);
+        // Supabase URL is already in image.path from our middleware
+        const imagePath = image.path;
+
         const updated = await User.update({ profilePic: imagePath }, { where: { id: req.user.userId } });
         if (updated) {
             return res.status(200).json({ message: "Profile pic updated successfully", profilePic: imagePath });

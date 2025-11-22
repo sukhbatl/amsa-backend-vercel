@@ -22,65 +22,108 @@ const searchRoutes = require('./routes/search');
 const passport = require('passport');
 require('./config/passport');
 
-const fileStorage = multer.diskStorage({
-    destination: (req, file, cb) => {
-        const folder = req.url.split('/')[2];
-        cb(null, path_join(__dirname, 'pictures', folder));
-    },
-    filename: (req, file, cb) => {
-        cb(null, new Date().getTime() + '-' + file.originalname);
-    },
-    fileFilter: (req, file, cb) => {
-        if (file.mimeType === 'image/png' || file.mimeType === 'image/jpeg' || file.mimeType === 'image/jpg') {
-            cb(null, true);
-        } else {
-            cb(null, false);
-        }
-    }
-});
+const { createClient } = require('@supabase/supabase-js');
+
+const supabaseUrl = process.env.SUPABASE_URL;
+const supabaseKey = process.env.SUPABASE_KEY;
+const supabase = createClient(supabaseUrl, supabaseKey);
+
+const fileStorage = multer.memoryStorage();
 
 const app = express();
 // Enable compression for all responses
 app.use(compression());
 // parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: false}));
+app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
-app.use(multer({storage: fileStorage, limits: {fileSize: 1024 * 1024 * 3}}).single('image'));
-app.use(express.static(path_join(__dirname, 'public')));
-app.use('/pictures', express.static(path_join(__dirname, 'pictures')));
 
-const accessLogStream = createWriteStream(
-    path_join(__dirname, 'access.log'),
-    { flags: 'a'}
-);
+// Multer middleware
+app.use(multer({ storage: fileStorage, limits: { fileSize: 1024 * 1024 * 3 } }).single('image'));
+
+// Custom middleware to upload to Supabase
+app.use(async (req, res, next) => {
+    if (req.file) {
+        try {
+            const folder = req.url.split('/')[2] || 'misc';
+            const filename = new Date().getTime() + '-' + req.file.originalname;
+            const filePath = `${folder}/${filename}`;
+
+            const { data, error } = await supabase.storage
+                .from('pictures')
+                .upload(filePath, req.file.buffer, {
+                    contentType: req.file.mimetype,
+                    upsert: false
+                });
+
+            if (error) {
+                console.error('Supabase upload error:', error);
+                return next(error);
+            }
+
+            const { data: publicUrlData } = supabase.storage
+                .from('pictures')
+                .getPublicUrl(filePath);
+
+            // Update req.file.path to be the public URL, so controllers work as expected
+            // Note: Controllers expect a relative path or full URL depending on usage.
+            // Based on user.js: image.path.substring(...) logic might break.
+            // We should update controllers or mock the path here.
+
+            // For now, let's set the path to the full URL.
+            // We will need to fix the controllers to handle this.
+            req.file.path = publicUrlData.publicUrl;
+
+            // Also attach it to body if needed, but req.file is standard.
+        } catch (err) {
+            console.error('Upload middleware error:', err);
+            return next(err);
+        }
+    }
+    next();
+});
+
+// app.use(express.static(path_join(__dirname, 'public')));
+// app.use('/pictures', express.static(path_join(__dirname, 'pictures')));
+
+// const accessLogStream = createWriteStream(
+//     path_join(__dirname, 'access.log'),
+//     { flags: 'a' }
+// );
 
 app.use(helmet());
-app.use(morgan('combined', { stream: accessLogStream }));
+// app.use(morgan('combined', { stream: accessLogStream }));
+app.use(morgan('combined')); // Log to stdout instead
 
 app.use((req, res, next) => {
     // Allow requests from production frontend
-    const allowedOrigins = ['https://amsa.mn', 'http://localhost:4200', 'http://localhost:3000'];
+    const allowedOrigins = [
+        'https://amsa.mn',
+        'http://localhost:4200',
+        'http://localhost:3000',
+        'https://amsa-frontend-vercel.vercel.app', // Add new frontend URL
+        'https://amsa-backend-vercel.vercel.app'   // Add self
+    ];
     const origin = req.headers.origin;
-    
-    if (allowedOrigins.includes(origin)) {
-        res.setHeader('Access-Control-Allow-Origin', origin);
+
+    if (allowedOrigins.includes(origin) || !origin) { // Allow no origin (e.g. server-to-server or tools)
+        res.setHeader('Access-Control-Allow-Origin', origin || '*');
     } else if (process.env.NODE_ENV !== 'production') {
         // In development, allow any origin
         res.setHeader('Access-Control-Allow-Origin', '*');
     }
-    
+
     res.setHeader('Access-Control-Allow-Headers',
         'Origin, X-Requested-With, Content-Type, Accept, Authorization');
     res.setHeader('Access-Control-Allow-Methods',
         'GET, POST, PATCH, DELETE, OPTIONS, PUT');
     res.setHeader('Access-Control-Allow-Credentials', 'true');
-    
+
     // Handle preflight requests
     if (req.method === 'OPTIONS') {
         return res.sendStatus(200);
     }
-    
+
     next();
 });
 app.use(passport.initialize());
@@ -103,9 +146,9 @@ require('./utility/cache').setAllVariables().then(() => {
 });
 
 //Handle errors
-app.use(function(err, req, res, next) {
+app.use(function (err, req, res, next) {
     console.log(err);
-    return res.status(err.status || 500).json({ error : JSON.stringify(err) });
+    return res.status(err.status || 500).json({ error: JSON.stringify(err) });
 });
 
 module.exports = app;
