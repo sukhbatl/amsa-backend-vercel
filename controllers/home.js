@@ -5,6 +5,11 @@ const User = db.User;
 
 module.exports.getHomeData = async(req, res, next) => {
     try {
+        // If models haven't been initialized yet (Sequelize retry in progress), return 503 so clients can retry.
+        if (!Post) {
+            console.warn('getHomeData: DB models not ready yet');
+            return res.status(503).json({ message: 'Service temporarily unavailable. DB not ready.' });
+        }
         const promises = [];
         const articlePromise = Post.findAll({
             limit: 4,
