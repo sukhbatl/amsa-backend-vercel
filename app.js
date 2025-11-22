@@ -172,6 +172,33 @@ app.get('/__debug/db-host', async (req, res) => {
 console.log('Username:', process.env.AMSA_MYSQL_USER);
 console.log('Database:', process.env.AMSA_MYSQL_DATABASE);
 
+// Startup DNS check for the DATABASE_URL host — logs resolution result to help diagnose ENOTFOUND on Vercel
+(async () => {
+    try {
+        const raw = process.env.DATABASE_URL || process.env.DB_URL || null;
+        if (!raw) {
+            console.log('Startup DNS check: no DATABASE_URL or DB_URL env var found');
+        } else {
+            let host = null;
+            try {
+                host = new URL(raw).hostname;
+            } catch (e) {
+                const afterAt = raw.split('@')[1] || raw;
+                host = afterAt.split(':')[0].split('/')[0];
+            }
+            const dns = require('dns').promises;
+            try {
+                const lookup = await dns.lookup(host);
+                console.log('Startup DNS lookup:', host, '->', lookup);
+            } catch (err) {
+                console.warn('Startup DNS lookup failed for host', host, ':', err && err.message ? err.message : err);
+            }
+        }
+    } catch (err) {
+        console.warn('Startup DNS check error:', err && err.message ? err.message : err);
+    }
+})();
+
 // Caching all the variables
 require('./utility/cache').setAllVariables().then(() => {
     console.log('All cache is set!');
