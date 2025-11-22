@@ -6,6 +6,32 @@ try {
     /* ignore if dotenv is not available */
 }
 
+const { URL } = require('url');
+
+let productionConfig = {
+    dialect: 'postgres',
+    dialectOptions: {
+        ssl: {
+            require: true,
+            rejectUnauthorized: false
+        }
+    },
+    logging: false
+};
+
+if (process.env.DATABASE_URL) {
+    try {
+        const dbUrl = new URL(process.env.DATABASE_URL);
+        productionConfig.username = dbUrl.username;
+        productionConfig.password = dbUrl.password;
+        productionConfig.database = dbUrl.pathname.split('/')[1];
+        productionConfig.host = dbUrl.hostname;
+        productionConfig.port = dbUrl.port;
+    } catch (e) {
+        console.error('Failed to parse DATABASE_URL:', e);
+    }
+}
+
 module.exports = {
     development: {
         use_env_variable: 'DATABASE_URL',
@@ -27,15 +53,5 @@ module.exports = {
             }
         }
     },
-    production: {
-        use_env_variable: 'DATABASE_URL',
-        dialect: 'postgres',
-        dialectOptions: {
-            ssl: {
-                require: true,
-                rejectUnauthorized: false // Required for some Supabase pooler configurations
-            }
-        },
-        logging: false
-    }
+    production: productionConfig
 };
