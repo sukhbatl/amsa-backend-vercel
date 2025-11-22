@@ -81,6 +81,9 @@ db.initPromise = (async function initWithRetry() {
       console.log(`Database initialized (attempt ${attempt})`);
       return; // success
     } catch (err) {
+      // Store error for debugging
+      db.initError = err;
+
       // Log details (non-sensitive). If it's a DNS/ENOTFOUND issue, this helps debugging.
       console.warn(`Sequelize init attempt ${attempt} failed:`, err && err.message ? err.message : err);
 

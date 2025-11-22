@@ -143,7 +143,11 @@ app.use('/api', async (req, res, next) => {
             if (!db.isReady()) {
                 // Suggest the client retry after a short period
                 res.setHeader('Retry-After', '3');
-                return res.status(503).json({ status: 'db_not_ready' });
+                return res.status(503).json({
+                    status: 'db_not_ready',
+                    message: 'Database initialization failed or is still in progress.',
+                    error: db.initError ? (db.initError.message || String(db.initError)) : null
+                });
             }
         }
     } catch (err) {
