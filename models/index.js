@@ -24,7 +24,7 @@ function makeSequelize() {
 }
 
 // Async init with retries to tolerate transient DNS failures (e.g. ENOTFOUND)
-(async function initWithRetry() {
+db.initPromise = (async function initWithRetry() {
   const maxAttempts = 5;
   const baseDelayMs = 500; // initial backoff
   let attempt = 0;
@@ -70,11 +70,11 @@ function makeSequelize() {
         }
       });
 
-  db.sequelize = sequelize;
-  db.Sequelize = Sequelize;
-  db._ready = true;
+      db.sequelize = sequelize;
+      db.Sequelize = Sequelize;
+      db._ready = true;
 
-  console.log(`Database initialized (attempt ${attempt})`);
+      console.log(`Database initialized (attempt ${attempt})`);
       return; // success
     } catch (err) {
       // Log details (non-sensitive). If it's a DNS/ENOTFOUND issue, this helps debugging.
@@ -91,11 +91,11 @@ function makeSequelize() {
         return;
       }
 
-  // Exponential backoff with jitter before retrying
-  const jitter = Math.floor(Math.random() * 250); // 0-249ms
-  const delay = baseDelayMs * Math.pow(2, attempt - 1) + jitter;
-  console.log(`Sequelize init: waiting ${delay}ms before next attempt`);
-  await new Promise(resolve => setTimeout(resolve, delay));
+      // Exponential backoff with jitter before retrying
+      const jitter = Math.floor(Math.random() * 250); // 0-249ms
+      const delay = baseDelayMs * Math.pow(2, attempt - 1) + jitter;
+      console.log(`Sequelize init: waiting ${delay}ms before next attempt`);
+      await new Promise(resolve => setTimeout(resolve, delay));
     }
   }
 })();

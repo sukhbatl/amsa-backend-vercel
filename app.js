@@ -129,13 +129,22 @@ app.use((req, res, next) => {
 app.use(passport.initialize());
 
 // Global readiness middleware for API routes: return 503 with Retry-After while DB is initializing
-app.use('/api', (req, res, next) => {
+app.use('/api', async (req, res, next) => {
     try {
         const db = require('./models');
         if (db && typeof db.isReady === 'function' && !db.isReady()) {
-            // Suggest the client retry after a short period
-            res.setHeader('Retry-After', '3');
-            return res.status(503).json({ status: 'db_not_ready' });
+            // If DB is not ready, wait for the init promise to resolve
+            if (db.initPromise) {
+                console.log('Waiting for DB init...');
+                await db.initPromise;
+            }
+
+            // Check again after waiting
+            if (!db.isReady()) {
+                // Suggest the client retry after a short period
+                res.setHeader('Retry-After', '3');
+                return res.status(503).json({ status: 'db_not_ready' });
+            }
         }
     } catch (err) {
         // If models import or check fails, allow request to proceed and be handled by route-level error handling
