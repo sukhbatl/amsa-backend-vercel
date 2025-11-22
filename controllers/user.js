@@ -1,10 +1,6 @@
 const jwt = require("jsonwebtoken");
 const db = require("../models");
-const User = db.User;
-const UsersBadges = db.UsersBadges;
-const Badge = db.Badge;
-const Role = db.Role;
-const Post = db.Post;
+
 const generateHash = require("../utility/hash").generateHash;
 const sendEmail = require("../utility/email").sendEmail;
 const bcrypt = require("bcryptjs");
@@ -56,6 +52,7 @@ exports.userLogin = (req, res, next) => {
 
 exports.updateProfile = async (req, res, next) => {
     try {
+        const User = db.User;
         const userId = req.user.userId;
         const user = await User.findOne({ where: { id: userId } });
         if (user) {
@@ -117,6 +114,11 @@ exports.updateProfile = async (req, res, next) => {
 
 exports.getUser = async (req, res, next) => {
     try {
+        const User = db.User;
+        const UsersBadges = db.UsersBadges;
+        const Badge = db.Badge;
+        const Post = db.Post;
+
         let userId = req.user.userId;
         let exclude = ["createdAt", "updatedAt", "hash", "password"];
         if (req.params.id) {
@@ -175,12 +177,18 @@ exports.getUser = async (req, res, next) => {
         console.log(e);
         return res.status(500).json({
             message: "Server not available",
+            error: e.message
         });
     }
 };
 
 exports.getPublicUser = async (req, res, next) => {
     try {
+        const User = db.User;
+        const UsersBadges = db.UsersBadges;
+        const Badge = db.Badge;
+        const Post = db.Post;
+
         const userId = req.params.id;
         const exclude = [
             "createdAt",
@@ -238,12 +246,14 @@ exports.getPublicUser = async (req, res, next) => {
         console.log(e);
         return res.status(500).json({
             message: "Server not available",
+            error: e.message
         });
     }
 };
 
 exports.changePassword = async (req, res, next) => {
     try {
+        const User = db.User;
         const currentPassword = req.body.currentPassword;
         const newPassword = req.body.newPassword;
 
@@ -264,12 +274,14 @@ exports.changePassword = async (req, res, next) => {
         console.log(e);
         return res.status(500).json({
             message: "Server not available",
+            error: e.message
         });
     }
 };
 
 exports.forgotPasswordEmail = async (req, res, next) => {
     try {
+        const User = db.User;
         const { email } = req.body;
         console.log(email);
 
@@ -322,12 +334,14 @@ exports.forgotPasswordEmail = async (req, res, next) => {
         console.error('Forgot password error:', e);
         return res.status(500).json({
             message: "Server not available",
+            error: e.message
         });
     }
 };
 
 exports.resetPassword = async (req, res, next) => {
     try {
+        const User = db.User;
         const { email, password, hash } = req.body;
 
         const user = await User.findOne({
@@ -351,12 +365,13 @@ exports.resetPassword = async (req, res, next) => {
         });
     } catch (e) {
         console.error('Reset Password Error:', e);
-        return res.status(500).json({ message: 'Server error' });
+        return res.status(500).json({ message: 'Server error', error: e.message });
     }
 }
 
 exports.updateProfilePic = async (req, res, next) => {
     try {
+        const User = db.User;
         const image = req.file;
         if (!image) {
             return res.status(422).json({ message: "Image not a valid" });
@@ -373,12 +388,14 @@ exports.updateProfilePic = async (req, res, next) => {
         console.log(e);
         return res.status(500).json({
             message: "Server not available",
+            error: e.message
         });
     }
 };
 
 exports.verifyEmail = async (req, res, next) => {
     try {
+        const User = db.User;
         const hash = req.params.hash;
         const email = req.params.email;
 
@@ -393,12 +410,14 @@ exports.verifyEmail = async (req, res, next) => {
     } catch (e) {
         return res.status(500).json({
             message: "Server not available",
+            error: e.message
         });
     }
 };
 
 exports.sendVerificationEmailAgain = async (req, res, next) => {
     try {
+        const User = db.User;
         const user = await User.findOne({ where: { email: req.params.email } });
         if (user && user.emailVerified === 0) {
             sendVerificationEmail(user).then();
@@ -409,12 +428,20 @@ exports.sendVerificationEmailAgain = async (req, res, next) => {
         console.log(e);
         return res.status(500).json({
             message: "Server not available",
+            error: e.message
         });
     }
 };
 
 exports.getMembers = async (req, res, next) => {
     try {
+        const Role = db.Role;
+        const User = db.User;
+
+        if (!Role || !User) {
+            return res.status(503).json({ message: "DB not ready" });
+        }
+
         const members = await Role.findAll({
             attributes: ["UserId", "name", "year", "yearEnd", "role"],
             include: [
@@ -466,6 +493,7 @@ exports.getMembers = async (req, res, next) => {
         console.log(e);
         return res.status(500).json({
             message: "Server not available",
+            error: e.message
         });
     }
 };
