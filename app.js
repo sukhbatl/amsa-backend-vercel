@@ -137,6 +137,19 @@ app.use('/api/members', membersRoutes);
 app.use('/api/home', homeRoutes);
 app.use('/api/search', searchRoutes);
 
+// Health endpoint: returns 200 only when DB is initialized; otherwise 503
+app.get('/health', (req, res) => {
+    try {
+        const db = require('./models');
+        if (db && typeof db.isReady === 'function' && db.isReady()) {
+            return res.status(200).json({ status: 'ok' });
+        }
+        return res.status(503).json({ status: 'db_not_ready' });
+    } catch (err) {
+        return res.status(500).json({ status: 'error', error: String(err) });
+    }
+});
+
 // Temporary debug endpoint (do not expose in production) — returns DB host Node sees and DNS lookup result
 app.get('/__debug/db-host', async (req, res) => {
     try {

@@ -10,6 +10,9 @@ const config = require(__dirname + '/../config/config.js')[env];
 // Export an object immediately so other modules can require this file.
 // We'll populate it once Sequelize has been initialized (with retries).
 const db = {};
+// readiness flag — set to true after successful Sequelize init
+db._ready = false;
+db.isReady = () => !!db._ready;
 module.exports = db;
 
 // Helper: create Sequelize instance from config
@@ -54,10 +57,11 @@ function makeSequelize() {
         }
       });
 
-      db.sequelize = sequelize;
-      db.Sequelize = Sequelize;
+  db.sequelize = sequelize;
+  db.Sequelize = Sequelize;
+  db._ready = true;
 
-      console.log(`Database initialized (attempt ${attempt})`);
+  console.log(`Database initialized (attempt ${attempt})`);
       return; // success
     } catch (err) {
       // Log details (non-sensitive). If it's a DNS/ENOTFOUND issue, this helps debugging.
