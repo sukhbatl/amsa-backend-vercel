@@ -1,6 +1,7 @@
 const app = require('./app');
 const debug = require('debug')('node-angular');
 const http = require('http');
+process.setMaxListeners(20); // Increase max listeners to avoid warnings
 
 const normalizePort = val => {
     const port = parseInt(val, 10);

@@ -13,8 +13,7 @@ const compression = require('compression');
 
 const usersRoutes = require('./routes/user');
 const badgesRoutes = require('./routes/badge');
-const postsRoutes = require('./routes/post');
-const interactionsRoutes = require('./routes/interact');
+
 const membersRoutes = require('./routes/members');
 const homeRoutes = require('./routes/home');
 const searchRoutes = require('./routes/search');
@@ -27,6 +26,10 @@ const { createClient } = require('@supabase/supabase-js');
 const supabaseUrl = process.env.SUPABASE_URL;
 const supabaseKey = process.env.SUPABASE_KEY;
 const supabase = createClient(supabaseUrl, supabaseKey);
+
+// Create a separate Supabase client with service role key for storage uploads (bypasses RLS)
+const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || supabaseKey;
+const supabaseAdmin = createClient(supabaseUrl, supabaseServiceKey);
 
 const fileStorage = multer.memoryStorage();
 
@@ -45,33 +48,36 @@ app.use(multer({ storage: fileStorage, limits: { fileSize: 1024 * 1024 * 3 } }).
 app.use(async (req, res, next) => {
     if (req.file) {
         try {
-            const folder = req.url.split('/')[2] || 'misc';
-            const filename = new Date().getTime() + '-' + req.file.originalname;
+            const folder = 'public'; // Must match Supabase RLS policy
+            // Normalize extension to .jpg to match Supabase RLS policy
+            const timestamp = new Date().getTime();
+            const filename = `${timestamp}.jpg`;
             const filePath = `${folder}/${filename}`;
 
-            const { data, error } = await supabase.storage
+            console.log('Attempting Supabase upload:', {
+                bucket: 'pictures',
+                filePath,
+                contentType: 'image/jpeg'
+            });
+
+            const { data, error } = await supabaseAdmin.storage
                 .from('pictures')
                 .upload(filePath, req.file.buffer, {
-                    contentType: req.file.mimetype,
+                    contentType: 'image/jpeg', // Force JPEG content type to match .jpg extension
                     upsert: false
                 });
 
             if (error) {
                 console.error('Supabase upload error:', error);
+                console.error('Upload details:', { filePath, bucket: 'pictures' });
                 return next(error);
             }
 
-            const { data: publicUrlData } = supabase.storage
+            const { data: publicUrlData } = supabaseAdmin.storage
                 .from('pictures')
                 .getPublicUrl(filePath);
 
-            // Update req.file.path to be the public URL, so controllers work as expected
-            // Note: Controllers expect a relative path or full URL depending on usage.
-            // Based on user.js: image.path.substring(...) logic might break.
-            // We should update controllers or mock the path here.
-
-            // For now, let's set the path to the full URL.
-            // We will need to fix the controllers to handle this.
+            // Store the full Supabase URL so frontend can use it directly
             req.file.path = publicUrlData.publicUrl;
 
             // Also attach it to body if needed, but req.file is standard.
@@ -95,37 +101,25 @@ app.use(helmet());
 // app.use(morgan('combined', { stream: accessLogStream }));
 app.use(morgan('combined')); // Log to stdout instead
 
-app.use((req, res, next) => {
-    // Allow requests from production frontend
-    const allowedOrigins = [
-        'https://amsa.mn',
-        'http://localhost:4200',
-        'http://localhost:3000',
-        'https://amsa-frontend-vercel.vercel.app', // Add new frontend URL
-        'https://amsa-backend-vercel.vercel.app'   // Add self
-    ];
-    const origin = req.headers.origin;
-
-    if (allowedOrigins.includes(origin) || !origin) { // Allow no origin (e.g. server-to-server or tools)
-        res.setHeader('Access-Control-Allow-Origin', origin || '*');
-    } else if (process.env.NODE_ENV !== 'production') {
-        // In development, allow any origin
-        res.setHeader('Access-Control-Allow-Origin', '*');
-    }
-
-    res.setHeader('Access-Control-Allow-Headers',
-        'Origin, X-Requested-With, Content-Type, Accept, Authorization');
-    res.setHeader('Access-Control-Allow-Methods',
-        'GET, POST, PATCH, DELETE, OPTIONS, PUT');
-    res.setHeader('Access-Control-Allow-Credentials', 'true');
-
-    // Handle preflight requests
-    if (req.method === 'OPTIONS') {
-        return res.sendStatus(200);
-    }
-
-    next();
-});
+const cors = require('cors');
+const allowedOrigins = [
+    'https://amsa.mn',
+    'http://localhost:4200',
+    'http://localhost:3000',
+    'https://amsa-frontend-vercel.vercel.app', // Add new frontend URL
+    'https://amsa-backend-vercel.vercel.app'   // Add self
+];
+app.use(cors({
+    origin: function (origin, callback) {
+        // allow requests with no origin like mobile apps or curl
+        if (!origin) return callback(null, true);
+        if (allowedOrigins.includes(origin) || process.env.NODE_ENV !== 'production') {
+            return callback(null, true);
+        }
+        return callback(new Error('Not allowed by CORS'));
+    },
+    credentials: true
+}));
 app.use(passport.initialize());
 
 // Global readiness middleware for API routes: return 503 with Retry-After while DB is initializing
@@ -160,8 +154,7 @@ app.use('/api', async (req, res, next) => {
 // Routes
 app.use('/api/user', usersRoutes);
 app.use('/api/badge', badgesRoutes);
-app.use('/api/post', postsRoutes);
-app.use('/api/interact', interactionsRoutes);
+
 app.use('/api/members', membersRoutes);
 app.use('/api/home', homeRoutes);
 app.use('/api/search', searchRoutes);

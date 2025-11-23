@@ -3,7 +3,7 @@ const JwtStrategy = require("passport-jwt").Strategy;
 const ExtractJwt = require("passport-jwt").ExtractJwt;
 const LocalStrategy = require("passport-local").Strategy;
 const db = require("../models");
-const User = db.User;
+
 const bcrypt = require("bcryptjs");
 
 const BCRYPT_ROUNDS = 10;
@@ -35,30 +35,30 @@ passport.use(
             try {
                 const hashedPassword = await bcrypt.hash(password, BCRYPT_ROUNDS);
 
-                const user = await User.create({
+                const user = await db.User.create({
                     email: email,
                     password: hashedPassword,
-                    firstName: req.body.firstName,
-                    lastName: req.body.lastName,
-                    birthday: req.body.birthday.substring(0, 10),
-                    address1: req.body.address1,
-                    address2: req.body.address2,
-                    city: req.body.city,
-                    state: req.body.state,
-                    zipCode: req.body.zipCode,
-                    phoneNumber: req.body.phoneNumber,
-                    personalEmail: req.body.personalEmail,
-                    facebook: req.body.facebook,
-                    linkedin: req.body.linkedin,
-                    instagram: req.body.instagram,
-                    schoolYear: req.body.schoolYear,
-                    schoolState: req.body.schoolState,
-                    schoolCity: req.body.schoolCity,
-                    degreeLevel: req.body.degreeLevel,
-                    graduationYear: req.body.graduationYear,
-                    major: req.body.major,
-                    major2: req.body.major2,
-                    schoolName: req.body.schoolName,
+                    firstName: req.body.firstName || null,
+                    lastName: req.body.lastName || null,
+                    birthday: req.body.birthday ? req.body.birthday.substring(0, 10) : null,
+                    address1: req.body.address1 || null,
+                    address2: req.body.address2 || null,
+                    city: req.body.city || null,
+                    state: req.body.state || null,
+                    zipCode: req.body.zipCode || null,
+                    phoneNumber: req.body.phoneNumber || null,
+                    personalEmail: req.body.personalEmail || null,
+                    facebook: req.body.facebook || null,
+                    linkedin: req.body.linkedin || null,
+                    instagram: req.body.instagram || null,
+                    schoolYear: req.body.schoolYear || null,
+                    schoolState: req.body.schoolState || null,
+                    schoolCity: req.body.schoolCity || null,
+                    degreeLevel: req.body.degreeLevel || null,
+                    graduationYear: req.body.graduationYear || null,
+                    major: req.body.major || null,
+                    major2: req.body.major2 || null,
+                    schoolName: req.body.schoolName || null,
                     acceptanceStatus: "00",
                     hash: generateHash(),
                     emailVerified: 1,
@@ -86,7 +86,7 @@ passport.use(
         async (req, email, password, done) => {
             try {
                 const hashedPassword = await bcrypt.hash(password, BCRYPT_ROUNDS);
-                const user = await User.create({
+                const user = await db.User.create({
                     email: email,
                     password: hashedPassword,
                     firstName: req.body.firstName,
@@ -116,7 +116,7 @@ passport.use(
         },
         async (email, password, done) => {
             try {
-                const user = await User.findOne({ where: { email: email } });
+                const user = await db.User.findOne({ where: { email: email } });
                 if (user) {
                     if (user.emailVerified === 0) {
                         return done(null, false, { message: "Email not verified!" });
@@ -147,7 +147,7 @@ const opts = {
 passport.use(
     new JwtStrategy(opts, async (jwt_payload, done) => {
         try {
-            const user = await User.findOne({
+            const user = await db.User.findOne({
                 where: { id: jwt_payload.userId, email: jwt_payload.email, level: jwt_payload.level },
             });
             if (user) {
