@@ -14,16 +14,19 @@ Clone the repo under `development` branch.
 
 If you're developing this repo, then you will need a couple of things
 
-1. Install nodemon globally by `npm i -g nodemon`
-2. Make sure you have correct `nodemon.json` in your root directory (Contact admin if you don't)
-3. Install all the packages by `npm i`
-4. Make sure your IP address is on the Remote MySQL (Go to your MySQL database hosting website)
+1. Install all the packages by `npm i`
+2. Make sure you have correct `.env` in your root directory (Contact admin if you don't)
+3. Make sure your IP address is on the Remote MySQL (Go to your MySQL database hosting website)
  
 After these, you are ready to start developing.
 
 Run the server by:
  
-``nodemon server``
+`npm run dev`
+
+Or for production-like start:
+
+`npm start`
 
 If you're successfully started the server and connected to the database, you will see the following output.
 

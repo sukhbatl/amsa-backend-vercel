@@ -3,7 +3,7 @@
 
 
 const db = require('../models');
-const User = db.User;
+
 const fs = require('fs');
 const bcrypt = require('bcryptjs');
 const nodeMailer = require('nodemailer');
@@ -95,9 +95,9 @@ async function insert_users() {
 
 
         for (let i = 0; i < users.length; i++) {
-            const user = await User.findOne({where: {email: users[i].email}});
+            const user = await db.User.findOne({ where: { email: users[i].email } });
             if (!user) {
-                await User.create(users[i]);
+                await db.User.create(users[i]);
             }
             console.log(i);
         }
@@ -123,7 +123,7 @@ async function send_emails() {
 
 
 
-const sendEmail = async function(toEmail, subject, html) {
+const sendEmail = async function (toEmail, subject, html) {
     try {
         const transporter = nodeMailer.createTransport({
             host: 'mail.amsa.mn',

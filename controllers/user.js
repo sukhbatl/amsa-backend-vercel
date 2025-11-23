@@ -157,10 +157,10 @@ exports.getUser = async (req, res, next) => {
                         },
                     ],
                 },
-                {
-                    model: Post,
-                    attributes: ["id", "title", "picUrl", "subTitle", "type", "category", "tags"],
-                },
+                // {
+                //     model: Post,
+                //     attributes: ["id", "title", "picUrl", "subTitle", "type", "category", "tags"],
+                // },
             ],
         });
         if (user) {
@@ -226,10 +226,10 @@ exports.getPublicUser = async (req, res, next) => {
                         },
                     ],
                 },
-                {
-                    model: Post,
-                    attributes: ["id", "title", "picUrl", "subTitle", "type", "category", "tags"],
-                },
+                // {
+                //     model: Post,
+                //     attributes: ["id", "title", "picUrl", "subTitle", "type", "category", "tags"],
+                // },
             ],
         });
         if (user) {

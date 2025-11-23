@@ -1,12 +1,12 @@
 const db = require('../models');
-const User = db.User;
+
 const sequelize = db.sequelize;
 
 
 
 module.exports.getAllMembers = async (req, res, next) => {
     try {
-        const members = await User.findAll({ attributes: ['id', 'firstName', 'lastName', 'schoolName'] });
+        const members = await db.User.findAll({ attributes: ['id', 'firstName', 'lastName', 'schoolName'] });
         return res.status(200).json(members);
     } catch (e) {
         return res.status(500).json({ message: 'Server error' });
@@ -15,12 +15,22 @@ module.exports.getAllMembers = async (req, res, next) => {
 
 module.exports.getGraduationYearMembers = async (req, res, next) => {
     try {
-        const members = await sequelize.query('select id, firstName, lastName, email, profilePic, schoolName from amsamn_website_db.Users where graduationYear = (SELECT graduationYear FROM amsamn_website_db.Users where id = 1);')
-        return res.status(200).json(members[0]);
+        // Get the graduation year from user ID 1
+        const referenceUser = await db.User.findByPk(1, { attributes: ['graduationYear'] });
+
+        if (!referenceUser || !referenceUser.graduationYear) {
+            return res.status(404).json({ message: 'Reference user not found' });
+        }
+
+        // Find all members with the same graduation year
+        const members = await db.User.findAll({
+            where: { graduationYear: referenceUser.graduationYear },
+            attributes: ['id', 'firstName', 'lastName', 'email', 'profilePic', 'schoolName']
+        });
+
+        return res.status(200).json(members);
     } catch (e) {
+        console.error('Error fetching graduation year members:', e);
         return res.status(500).json({ message: 'Server error' });
     }
 }
-
-
-

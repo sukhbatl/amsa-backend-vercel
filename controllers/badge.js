@@ -1,7 +1,4 @@
 const db = require('../models');
-const Badge = db.Badge;
-const UsersBadges = db.UsersBadges;
-const User = db.User;
 const path = require('path');
 const sendEmail = require('../utility/email').sendEmail;
 
@@ -20,7 +17,7 @@ module.exports.newBadge = async (req, res, next) => {
             description: req.body.description,
         };
 
-        await Badge.create(newBadge);
+        await db.Badge.create(newBadge);
 
         return res.status(201).json({ message: 'Badge Created Successfully' });
     } catch (e) {
@@ -37,7 +34,7 @@ module.exports.assignBadge = async (req, res, next) => {
             UserId,
             BadgeId
         };
-        await UsersBadges.create(assignment);
+        await db.UsersBadges.create(assignment);
 
         sendBadgeNotification(UserId, BadgeId).then();
 
@@ -50,11 +47,11 @@ module.exports.assignBadge = async (req, res, next) => {
 // Get current user's all badges
 module.exports.getBadges = async (req, res, next) => {
     try {
-        const badges = await UsersBadges.findAll({
+        const badges = await db.UsersBadges.findAll({
             where: { UserId: req.user.userId },
             attributes: [],
             include: [{
-                model: Badge,
+                model: db.Badge,
                 attributes: ['id', 'title', 'name', 'description', 'picUrl']
             }]
         });
@@ -72,7 +69,7 @@ module.exports.getBadges = async (req, res, next) => {
 // Get all the badges in the Database
 module.exports.getAllBadges = async (req, res, next) => {
     try {
-        const badges = await Badge.findAll({
+        const badges = await db.Badge.findAll({
             attributes: ['id', 'name', 'description', 'picUrl']
         });
         if (badges) {
@@ -90,7 +87,7 @@ module.exports.getAllBadges = async (req, res, next) => {
 module.exports.deleteBadge = async (req, res, next) => {
     try {
         const id = +req.params.id;
-        const result = await Badge.destroy({ where: { id } });
+        const result = await db.Badge.destroy({ where: { id } });
         if (result > 0) {
             return res.status(200).json({ message: 'Deleted' });
         } else {
@@ -106,16 +103,16 @@ module.exports.getAllUsers = async (req, res, next) => {
     try {
         const id = +req.params.id;
         console.log(id);
-        const badgePromise = Badge.findOne({
+        const badgePromise = db.Badge.findOne({
             where: { id },
             attributes: ['id', 'name', 'description', 'picUrl'],
         });
 
-        const usersPromise = UsersBadges.findAll({
+        const usersPromise = db.UsersBadges.findAll({
             where: { BadgeId: id },
             attributes: [],
             include: [{
-                model: User,
+                model: db.User,
                 attributes: ['id', 'firstName', 'lastName', 'email', 'schoolName', 'profilePic']
             }]
         });
@@ -137,8 +134,8 @@ module.exports.getAllUsers = async (req, res, next) => {
 sendBadgeNotification = async (userID, badgeID) => {
     try {
 
-        const user = await User.findOne({ where: { id: userID }, attributes: ['firstName', 'lastName', 'personalEmail'] });
-        const badge = await Badge.findOne({ where: { id: badgeID }, attributes: ['name'] });
+        const user = await db.User.findOne({ where: { id: userID }, attributes: ['firstName', 'lastName', 'personalEmail'] });
+        const badge = await db.Badge.findOne({ where: { id: badgeID }, attributes: ['name'] });
 
 
         const html = `
