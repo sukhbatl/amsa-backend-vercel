@@ -15,11 +15,17 @@ module.exports.getAllMembers = async (req, res, next) => {
 
 module.exports.getGraduationYearMembers = async (req, res, next) => {
     try {
-        // Get the graduation year from user ID 1
-        const referenceUser = await db.User.findByPk(1, { attributes: ['graduationYear'] });
+        // Get the graduation year from the authenticated user
+        const userId = req.userData?.userId;
+
+        if (!userId) {
+            return res.status(401).json({ message: 'User not authenticated' });
+        }
+
+        const referenceUser = await db.User.findByPk(userId, { attributes: ['graduationYear'] });
 
         if (!referenceUser || !referenceUser.graduationYear) {
-            return res.status(404).json({ message: 'Reference user not found' });
+            return res.status(404).json({ message: 'Graduation year not set for your profile' });
         }
 
         // Find all members with the same graduation year
